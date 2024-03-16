@@ -1,0 +1,12 @@
+<html lang="en">
+<html>
+
+<title>index</title>
+<title>IOW TSSC</title>
+
+"https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+"katex.min.css"
+
+
+
+<meta name="description" content="Website for the Isle of Wight Triumph Sport Six Club, with list of upcoming events and a history of the area.">
