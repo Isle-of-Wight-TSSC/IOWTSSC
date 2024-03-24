@@ -17,7 +17,7 @@ print_background: false
 
 ## April Drive it Day
 
-We will be doing a brunch run for April drive it day on the sunday 21^st^ of April
+We are doing a brunch run for April drive it day on the sunday 21^st^ of April meeting at 9:45 leaving at 10 [Whale chine car park](https://w3w.co/amplified.allow.muddle) to [GG's](https://www.ggsiow.com/).
 
 ## Isle of Wight Triumph Weekend
 
