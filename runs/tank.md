@@ -16,9 +16,9 @@
 | &#x21b1;          | **right** at the T-junction                                                                                 | 9.3   |
 | &#x21b0;          | **left** onto Highwood Lane                                                                                 | 10.3  |
 | &#x21b1;          | **right** at the T-junction                                                                                 | 11.1  |
-| 2^nd^             | **second** exit at mini-roundabout                                                                          |
-| 1^st^             | **first** exit at mini-roundabout                                                                           |
-| 3^rd^             | **third** exit at mini-roundabout                                                                           |
-| &#x1F6A6;&#x21b1; | **right** at the traffic light T-junction                                                                   |
-| &#x21b0;&#x1F6A6; | **left** at the traffic light                                                                               |
-| &#x21b1;          | **right** into the Wight Military and Heritage Museum                                                       |
+| 2^nd^             | **second** exit at mini-roundabout                                                                          | 13.7  |
+| 1^st^             | **first** exit at mini-roundabout                                                                           | 13.8  |
+| 3^rd^             | **third** exit at mini-roundabout                                                                           | 14.1  |
+| &#x1F6A6;&#x21b1; | **right** at the traffic light T-junction                                                                   | 15.2  |
+| &#x21b0;&#x1F6A6; | **left** at the traffic light                                                                               | 16.2  |
+| &#x21b1;          | **right** into the Wight Military and Heritage Museum                                                       | 17.7  |
