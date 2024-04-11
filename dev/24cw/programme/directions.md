@@ -11,6 +11,6 @@ html:
 print_background: false
 ---
 
-![tank](/programme/tank.md)
-![steam](/programme/steam.md)
-![folly](/programme/folly.md)
+![tank](/dev/24cw/programme/tank.md)
+![steam](/dev/24cw/programme/steam.md)
+![folly](/dev/24cw/programme/folly.md)

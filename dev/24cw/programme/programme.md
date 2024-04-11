@@ -28,11 +28,11 @@ Monday midday will be a farewell lunch at the Folly Inn, East Cowes.
 
 ---
 
-![time table](/programme/timetable.md)
+![time table](/dev/24cw/programme/timetable.md)
 
 ---
 
-![directions](/programme/directions.md)
+![directions](/dev/24cw/programme/directions.md)
 
 ---
 
