@@ -1,4 +1,4 @@
-# directions to tank museum
+# Directions to Wight Military and Heritage Museum
 
 | sign              | direction                                                                                                   | miles |
 | ----------------- | ----------------------------------------------------------------------------------------------------------- | ----- |
