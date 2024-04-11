@@ -1,3 +1,16 @@
+---
+export_on_save:
+  html: true
+
+html:
+  embed_local_images: false
+  embed_svg: true
+  offline: False
+  toc: False
+
+print_background: false
+---
+
 ![logo](/dev/24cw/rock.svg)
 
 # programme of events
