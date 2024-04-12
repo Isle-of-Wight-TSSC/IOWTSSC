@@ -1,4 +1,7 @@
-### Directions to Wight Military and Heritage Museum
+### Directions to Wight Military and Heritage Museum 
+
+\\\slurping.students.piled
+PO31 8QU
 
 | Sign              | Direction                                                                                                   | Miles |
 | ----------------- | ----------------------------------------------------------------------------------------------------------- | ----- |

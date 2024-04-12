@@ -1,5 +1,8 @@
 ### Directions to The Folly
 
+///hides.prestige.slip
+PO32 6NB
+
 | Sign               | Direction                                                                                                   | Miles |
 | ------------------ | ----------------------------------------------------------------------------------------------------------- | ----- |
 | &#x21b0;           | Head out of the bottom gate of the campsite, turning **left** along the Esplanade **beware** of speed humps | 0.0   |

@@ -1,5 +1,8 @@
 ### Directions to the Steam Railway
 
+///racetrack.director.spike
+PO33 4DS
+
 | Sign               | Direction                                                                                                   | Miles |
 | ------------------ | ----------------------------------------------------------------------------------------------------------- | ----- |
 | &#x21b0;           | Head out of the bottom gate of the campsite, turning **left** along the esplanade **beware** of the speed humps | 0.0   |
