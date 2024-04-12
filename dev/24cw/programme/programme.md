@@ -26,7 +26,7 @@ iow.triumphsportsix.club
 
 Friday evening is a social night for a drink and a catch up in the clubhouse.
 
-Saturday we are heading out to Wight Military and Heritage Museum for a complimentary burger, etc. Drinks and snacks also available to purchase from the Churchill's Tea Room
+Saturday we are heading out to Wight Military and Heritage Museum for a complimentary burger, etc. Drinks and snacks also available to purchase from the Churchill's Tea Room. For reduced entrance of £9 please show your programme.
 (Please see Jo & Roxy on the day for your food ticket.)
 
 In the evening, Blue Venice will be providing music from 8.30pm, looking forward to having a boogie.
