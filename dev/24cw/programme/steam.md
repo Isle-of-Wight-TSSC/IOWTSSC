@@ -12,6 +12,6 @@
 | &#x29BD;           | **Straight** across the mini roundabout at Robin Hill entrance                                              | 6.2   |
 | &#x21b0; &#x1F6A6; | **Left** at the Hare and Hounds traffic lights                                                              | 6.3   |
 | &#x21b0;           | **Left** onto Deacons Lane                                                                                  | 10.5  |
-| 1^st^              | **First** exit at miniroundabout                                                                               | 11.8  |
+| 1^st^              | **First** exit at mini roundabout                                                                               | 11.8  |
 | &#x21b0;           | **Left** at T-Junction                                                                                      | 12.7  |
 | &#x21b1;           | **Right** into the Steam Railway                                                                            | 13.8  |
