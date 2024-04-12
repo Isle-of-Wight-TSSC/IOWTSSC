@@ -23,3 +23,7 @@ We are doing a brunch run for April drive it day on the sunday 21^st^ of April m
 
 Friday 3^rd^ May to Monday 6^th^ May 2024.
 The [Isle of Wight Triumph Weekend](/weekend.html) will be held over the first May Bank Holiday.
+
+## June Brunch Run
+
+For our June brunch run we will be driving out from yarmouth car park along to culver for a picnic at cluver to watch the round the island boat race on Saturday 15^th^ June 2024.
