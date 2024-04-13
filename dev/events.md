@@ -26,4 +26,4 @@ The [Isle of Wight Triumph Weekend](/weekend.html) will be held over the first M
 
 ## June Brunch Run
 
-For our June brunch run we will be driving out from yarmouth car park along to culver for a picnic at cluver to watch the round the island boat race on Saturday 15^th^ June 2024.
+For our June brunch run we will be driving out from [yarmouth car park](https://w3w.co/airbase.bath.grills) along to [culver](https://w3w.co/case.truly.weeps) for a picnic at culver to watch the [round the island boat race](https://islandsc.org.uk/entries-for-the-2024-round-the-island-race-are-open/) on Saturday 15^th^ June 2024.
