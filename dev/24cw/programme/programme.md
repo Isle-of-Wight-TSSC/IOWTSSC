@@ -33,8 +33,7 @@ In the evening, Blue Venice will be providing music from 8.30pm, looking forward
 
 Sunday our drive out will end up at the Isle of Wight Steam Railway for their real ale festival.
 
-The Ice Cream Van will be at the campsite from 4.30pm, followed by a night of Bingo!
-**Cash prizes, £1.50 for six tickets**
+The Ice Cream Van will be at the campsite from 4.30pm, followed by a table top quiz.
 
 Monday midday will be a farewell lunch at the Folly Inn, East Cowes.
 
