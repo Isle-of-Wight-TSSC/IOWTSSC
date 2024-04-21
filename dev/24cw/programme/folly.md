@@ -1,7 +1,6 @@
-### Directions to The Folly
+### Monday's convoy to The Folly
 
-///hides.prestige.slip
-PO32 6NB
+///hides.prestige.slip PO32 6NB
 
 | Sign               | Direction                                                                                                   | Miles |
 | ------------------ | ----------------------------------------------------------------------------------------------------------- | ----- |

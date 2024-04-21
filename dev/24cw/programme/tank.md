@@ -1,7 +1,6 @@
-### Directions to Wight Military and Heritage Museum 
+### Saturday's convoy to Wight Military and Heritage Museum 
 
-\\\slurping.students.piled
-PO31 8QU
+\\\slurping.students.piled PO31 8QU
 
 | Sign              | Direction                                                                                                   | Miles |
 | ----------------- | ----------------------------------------------------------------------------------------------------------- | ----- |

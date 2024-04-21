@@ -1,7 +1,6 @@
-### Directions to the Steam Railway
+### Sunday's convoy to the Steam Railway
 
-///racetrack.director.spike
-PO33 4DS
+///racetrack.director.spike PO33 4DS
 
 | Sign               | Direction                                                                                                       | Miles |
 | ------------------ | --------------------------------------------------------------------------------------------------------------- | ----- |
