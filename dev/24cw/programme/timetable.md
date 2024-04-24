@@ -7,4 +7,4 @@
 | 12pm    | ^                       | Arrive at Wight Military and Heritage Museum | Arrive at Steam Railway                | Lunch followed by farewells |
 | 4:30pm  | ^                       | ^                                            | Ice Cream Van on site                  | ^                           |
 | 6pm     | >                       | >                                            | Food in the clubhouse, last orders 9pm | See you in 2025 :)          |
-| 8pm     | Social in the clubhouse | Blue Venice playing at 8:30pm                | table top quiz £                       | ^                           |
+| 8pm     | Social in the clubhouse | Blue Venice playing at 8:30pm                | Bingo (£1.50) and table top quiz       | ^                           |
