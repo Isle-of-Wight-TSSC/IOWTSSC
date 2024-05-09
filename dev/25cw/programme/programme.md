@@ -13,7 +13,7 @@ print_background: false
 
 ![directions](/dev/25cw/programme/directions.md)
 
-![logo](/dev/25cw/rock.svg)
+![logo](/dev/25cw/logo/rock.svg)
 
 # Programme of Events
 
