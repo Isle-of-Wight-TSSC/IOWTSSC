@@ -17,6 +17,8 @@ print_background: false
 
 # Programme of Events
 
+![tssc logo](/assets/TSSC%20Logo.GIF)
+
 ## Welcome
 
 The plans for our weekend are detailed below. If you have any enquiries then please pop along and see us in Caravan 44, if we are not in then please call our mobiles.
