@@ -56,3 +56,5 @@ Jo and Roxy
 
 - Put next year’s date in your diary…
   **1^st^ - 4^th^ May 2026**
+
+![qr code](/assets/qr.svg)
