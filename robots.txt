@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://iow.triumphsportsix.club/sitemap.xml
