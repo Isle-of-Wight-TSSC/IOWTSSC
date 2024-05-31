@@ -22,4 +22,4 @@ For our June brunch run we will be driving out from [yarmouth car park](https://
 ## Isle of Wight Triumph Weekend
 
 Friday 2^nd^ May to Monday 5^th^ May 2025.
-The [Isle of Wight Triumph Weekend](/weekend.html) will be held over the first May Bank Holiday.
+The [Isle of Wight Triumph Weekend](/weekend.html) will be held over the [first May Bank Holiday](/iow.ics).
