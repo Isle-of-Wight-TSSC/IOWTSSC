@@ -19,7 +19,7 @@ The Isle of Wight TSSC Area was formed way back in 1988 when Paul and Jason firs
 
 We are a friendly bunch - our meetings usually start with a drive out and alternate between a brunch run and an evening pub meet. All are welcome with friends or family, whether your car is on the road or not. Suggestions are always welcome.
 
-Our other claim to fame is the Isle of Wight Triumph Weekend which has been going since 1990! The [Isle of Wight Triumph Weekend](/weekend.html) is at the usual venue, [Waverley Park Holiday Centre](https://www.waverleypark.co.uk/) in East Cowes. Occurring over the [first May Bank Holiday](/iow.ics), Friday 2^nd^ May to Monday 5^th^ May 2025..
+Our other claim to fame is the Isle of Wight Triumph Weekend which has been going since 1990! The [Isle of Wight Triumph Weekend](/weekend.html) is at the usual venue, [Waverley Park Holiday Centre](https://www.waverleypark.co.uk/) in East Cowes. Occurring over the [first May Bank Holiday](/iow.ics), Friday 2^nd^ May to Monday 5^th^ May 2025.
 
 Please [email](mailto:IOW@triumphsportsix.club?subject=newsletter) us to be added to our list so you can be kept up to date.
 
