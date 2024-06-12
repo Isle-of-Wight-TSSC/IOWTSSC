@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>HTML Geolocation</h1>
+<p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+const x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.watchPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+    
+function showPosition(position) {
+  x.innerHTML = '<?xml version="1.0" encoding="utf-8"?><svg viewBox="-10 -10 80 80" width="80" height="80" xmlns="http://www.w3.org/2000/svg">  <rect width="80" height="80" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="' + position.coords.latitude + '" cy="' + position.coords.longitude + '" rx="1" ry="1"/></svg>';
+}
+</script>
+
+</body>
+</html>
