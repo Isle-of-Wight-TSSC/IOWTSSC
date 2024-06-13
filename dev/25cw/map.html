@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>HTML Geolocation</h1>
-<p>Click the button to get your coordinates.</p>
 
-<button onclick="getLocation()">Try It</button>
+<button onclick="getLocation()">load map</button>
 
 <p id="demo"></p>
 
@@ -20,9 +18,18 @@ function getLocation() {
 }
     
 function showPosition(position) {
-  x.innerHTML = '<?xml version="1.0" encoding="utf-8"?><svg viewBox="-10 -10 80 80" width="80" height="80" xmlns="http://www.w3.org/2000/svg">  <rect width="80" height="80" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="' + position.coords.latitude + '" cy="' + position.coords.longitude + '" rx="1" ry="1"/></svg>';
+  x.innerHTML = '<?xml version="1.0" encoding="utf-8"?>  <svg viewBox="-16 505 10 5" width="800" height="800" xmlns="http://www.w3.org/2000/svg"><path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M -12.943 507.66 L -10.7 506.856 L -12.959 505.744 L -15.703 506.694 Z"/><ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="'
+  + position.coords.longitude*10 + '" cy="' + position.coords.latitude*10 + 
+  '" rx=".5" ry=".5"/></svg>';
 }
 </script>
 
 </body>
 </html>
+
+
+<!--
+<path d="M 1 0 L 2 3 L 1 2 L 0 3 L 1 0 Z"; transform="rotate('
+  + position.coords.heading +
+  ')"   style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+-->
