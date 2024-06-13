@@ -18,9 +18,9 @@ function getLocation() {
 }
     
 function showPosition(position) {
-  x.innerHTML = '<?xml version="1.0" encoding="utf-8"?>  <svg viewBox="-16 505 10 5" width="800" height="800" xmlns="http://www.w3.org/2000/svg"><path style="stroke-width: 0.1px; fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M -12.943 507.66 L -10.7 506.856 L -12.959 505.744 L -15.703 506.694 Z"/><ellipse style="stroke-width: 0.1px; fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="'
-  + position.coords.longitude*10 + '" cy="' + position.coords.latitude*10 + 
-  '" rx=".5" ry=".5"/></svg>';
+  x.innerHTML = '<?xml version="1.0" encoding="utf-8"?>  <svg viewBox="-16 -508 10 5" width="1000" height="1000" xmlns="http://www.w3.org/2000/svg"><path style="stroke-width: 0.1px; fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M -12.943 -507.66 L -10.7 -506.856 L -12.959 -505.744 L -15.703 -506.694 Z"/><ellipse style="stroke-width: 0.1px; fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="'
+  + position.coords.longitude*10 + '" cy="' + -position.coords.latitude*10 + 
+  '" rx=".1" ry=".1"/></svg>';
 }
 </script>
 
