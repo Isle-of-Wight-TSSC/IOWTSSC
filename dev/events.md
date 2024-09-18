@@ -17,7 +17,7 @@ print_background: false
 
 ## September brunch run
 
-Our next run is Friday, September 28th! We’ll be starting from [Carisbrooke priory](https://w3w.co/frown.loved.vented) car park at 10 a.m. and driving to [Donkey Sanctuary](https://www.iowdonkeysanctuary.org/) to grab some brunch from the café at 11 a.m. and see the donkeys. Please let us know if you’re planning to join us so we can let them know how many seats we need. Can’t wait to see you all there!
+Our next run is Saturday the 28th September! We’ll be starting from [Carisbrooke priory](https://w3w.co/frown.loved.vented) car park at 10 a.m. and driving to [Donkey Sanctuary](https://www.iowdonkeysanctuary.org/) to grab some brunch from the café at 11 a.m. and see the donkeys. Please let us know if you’re planning to join us so we can let them know how many seats we need. Can’t wait to see you all there!
 
 ## Isle of Wight Triumph Weekend
 
