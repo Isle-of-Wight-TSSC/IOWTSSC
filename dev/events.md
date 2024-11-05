@@ -15,9 +15,11 @@ print_background: false
 
 ![menubar](/dev/menubar.md)
 
-## September brunch run
+## Christmas Meal
 
-Our next run is Saturday the 28th September! We’ll be starting from [Carisbrooke priory](https://w3w.co/frown.loved.vented) car park at 10 a.m. and driving to [Donkey Sanctuary](https://www.iowdonkeysanctuary.org/) to grab some brunch from the café at 11 a.m. and see the donkeys. Please let us know if you’re planning to join us so we can let them know how many seats we need. Can’t wait to see you all there!
+On Friday 20th December at 7:30pm we are having our Christmas meal at [The Wight Mouse](https://www.wightmouse.co.uk/)
+This should be a lovely evening with maybe even a festive game or two thrown in.
+If you would like to join us, please let us know with your [meal choices](assets/xmas24meal.jpg) by the end of November as we’ll need to let the pub know.
 
 ## Isle of Wight Triumph Weekend
 
