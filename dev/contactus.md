@@ -18,4 +18,4 @@ print_background: false
 [Facebook](https://www.facebook.com/groups/786750551371248/): Isle Of Wight Area Triumph Sports Six Club
 [Instagram](https://www.instagram.com/isle_of_wight_tssc/): isle_of_wight_tssc
 [Threads](https://www.threads.net/@isle_of_wight_tssc): isle_of_wight_tssc
-[TSSC](https://www.tssc.org.uk/tssc/areas_final.asp?area_ID=37&area=South%20East,%20Isle%20of%20Wight)
+[TSSC Area](https://www.tssc.org.uk/tssc/areas_final.asp?area_ID=37&area=South%20East,%20Isle%20of%20Wight): South East, Isle of Wight
