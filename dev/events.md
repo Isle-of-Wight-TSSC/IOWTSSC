@@ -15,9 +15,9 @@ print_background: false
 
 ![menubar](/dev/menubar.md)
 
-## January brunch run
+## February carvery run
 
-Our next run is Saturday 18^th^ of January. We’ll be starting from [Blackgang viewpoint](https://w3w.co/hobble.sampled.skimmers) car park at 10:30am and driving to the [Isle of Wight Pearl](https://w3w.co/divisible.reliving.archives) for brunch at 11am. Please let us know if you’re planning to join us so we can let them know how many seats we need. Can’t wait to see you all there!
+Our next run is Sunday 16th of February. We’ll be starting from upper coppins bridge car park at 11:30am and driving to the horse and groom for lunch  at 12pm. Please let us know if you’re planning to join us so we can let them know how many seats we need. Can’t wait to see you all there! 😊
 
 ## Isle of Wight Triumph Weekend
 
