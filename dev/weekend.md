@@ -14,7 +14,7 @@ print_background: false
 # Isle of Wight Triumph weekend
 
 ![menubar](/dev/menubar.md)
-Thanks you to all who came along to the triumph weekend last year and helped us complete a smooth transition by being so accommodating. We hope you all had a good time and will be happy to know that planing for next year has already started.
+Thanks you to all who came along to the triumph weekend last year and helped us complete a smooth transition by being so accommodating. We hope you all had a good.
 ![convoy leaving](/gitignore/convoy.GIF){width="50%"}
 
 Looking forward to seeing you this year over the [first May Bank Holiday](/iow.ics), Friday 2^nd^ May to Monday 5^th^ May 2025.
