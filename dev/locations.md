@@ -4,3 +4,4 @@
 [Donkey sanctuary](https://w3w.co/island.ports.motoring)
 [Isle of Wight Pearl](https://w3w.co/divisible.reliving.archives)
 [coppins bridge upper car park](https://w3w.co/alley.stared.upsetting)
+[Chessell Pottery Cafe](https://w3w.co/overheard.hydration.fronted)

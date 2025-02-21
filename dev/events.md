@@ -17,7 +17,7 @@ print_background: false
 
 ## February carvery run
 
-Our next run is Sunday 16th of February. We’ll be starting from [coppins bridge upper car park](https://w3w.co/alley.stared.upsetting) at 11:30am and driving to the [horse and groom](https://horse-and-groom.com/) for lunch  at 12pm. Please let us know if you’re planning to join us so we can let them know how many seats we need. Can’t wait to see you all there!
+Our next run is Saturday 16th of February. We’ll be starting from [Blackgang viewpoint](https://w3w.co/hobble.sampled.skimmers) at 11:15am and driving to the [Chessell Pottery Cafe](https://w3w.co/overheard.hydration.fronted) for lunch  at 11:45am. Please let us know if you’re planning to join us so we can let them know how many seats we need. Can’t wait to see you all there!
 
 ## Isle of Wight Triumph Weekend
 
