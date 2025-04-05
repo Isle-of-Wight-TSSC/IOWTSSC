@@ -15,9 +15,9 @@ print_background: false
 
 ![menubar](/dev/menubar.md)
 
-## February carvery run
+## April Pizza run
 
-Our next run is Saturday 16th of February. We’ll be starting from [Blackgang viewpoint](https://w3w.co/hobble.sampled.skimmers) at 11:15am and driving to the [Chessell Pottery Cafe](https://w3w.co/overheard.hydration.fronted) for lunch  at 11:45am. Please let us know if you’re planning to join us so we can let them know how many seats we need. Can’t wait to see you all there!
+Our next run is Friday, April 11th! We’ll be starting from [Blackgang viewpoint](https://w3w.co/hobble.sampled.skimmers)  at 5:30pm and driving to Freshwater to grab some delicious pizza from the “Wight Wood” pizza van. Don’t forget to book in advance at [Wight Wood Pizza](www.wightwoodpizza.co.uk). Can’t wait to see you all there!
 
 ## Isle of Wight Triumph Weekend
 
