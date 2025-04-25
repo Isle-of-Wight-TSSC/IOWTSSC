@@ -14,7 +14,7 @@
 | &#x29BD;           | **Straight** across the mini roundabout at Robin Hill entrance                                                  | 7.2   |
 | &#x21b0; &#x1F6A6; | **Left** at the Hare and Hounds traffic lights                                                                  | 7.3   |
 | &#x21b1;           | **Right** onto Knighton shute                                                                                   | 9.4   |
-| &#x29BD;           | **Straight** across the cross roads                                                                             | 12.3    |
+| &#x29BD;           | **Straight** across the cross roads                                                                             | 12.3  |
 | &#x21b0;           | **Left** at the t-junction                                                                                      | 12.8  |
 | &#x29BD;           | **Straight** across the mini roundabout towards Worxall                                                         | 13.7  |
-| &#x21b1;           | **Right** into the Donkey Sanctuary                                                                             | 14  |
+| &#x21b1;           | **Right** into the Donkey Sanctuary                                                                             | 14    |

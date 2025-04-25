@@ -28,16 +28,16 @@ iow.triumphsportsix.club
 
 Friday evening is a social night for a drink and a catch up in the clubhouse.
 
-Saturday we are heading out to ??? for a complimentary burger, etc. Drinks and snacks also available to purchase from the ???. For reduced entrance of **£??? please show your programme**.
+Saturday we are heading out to The Donkey Sanctuary for a complimentary hotdog, etc. Drinks and snacks also available to purchase from the cafe. with free guided tours.
 (Please see Jo & Roxy on the day for your food ticket.)??use tear off corner???
 
-In the evening, ??? will be providing music from **8.30pm**, looking forward to having a boogie.
+In the evening, The Scores will be providing music from **8.30pm**, looking forward to having a boogie.
 
-Sunday our drive out will end up at the ???.
+Sunday our drive out will end up at the The Needles.For reduced entrance of **£3 please show your programme**.
 
 The Ice Cream Van will be at the campsite from **4.30pm**, followed by bingo (**6** tickets @ **£1.50**) and a table top quiz.
 
-Monday midday will be a farewell lunch at the ???.
+Monday midday will be a farewell lunch at the The Wight Mouse.
 
 ![time table](/dev/25cw/programme/timetable.md)
 
@@ -48,7 +48,7 @@ Jo and Roxy
 
 ### Additional Information:
 
-- Jane Rowley (caravan ???) is kindly giving up her own time this weekend to do TSSC Valuations, so please bear this in mind when arranging an appointment with her, many thanks
+- Jane Rowley is kindly giving up her own time this weekend to do TSSC Valuations, so please bear this in mind when arranging an appointment with her, many thanks
 
 - The Island roads are still being upgraded so please bear with us if there are unexpected road closures (follow diversion signs if needed) and don’t forget to dodge the existing potholes!!!!
 
