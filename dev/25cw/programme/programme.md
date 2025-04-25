@@ -29,7 +29,7 @@ iow.triumphsportsix.club
 Friday evening is a social night for a drink and a catch up in the clubhouse.
 
 Saturday we are heading out to The Donkey Sanctuary for a complimentary hotdog, etc. Drinks and snacks also available to purchase from the cafe. with free guided tours.
-(Please see Jo & Roxy on the day for your food ticket.)??use tear off corner???
+(Please see Jo & Roxy on the day for your food ticket.)
 
 In the evening, The Scores will be providing music from **8.30pm**, looking forward to having a boogie.
 
