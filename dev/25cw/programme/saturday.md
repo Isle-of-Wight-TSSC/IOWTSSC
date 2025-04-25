@@ -1,4 +1,4 @@
-### Sunday's convoy to the Donkey sanctuary
+### Saturday's convoy to the Donkey sanctuary
 
 ///chips.rollover.drop PO38 3AA
 
