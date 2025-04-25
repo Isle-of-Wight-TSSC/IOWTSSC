@@ -21,7 +21,7 @@ print_background: false
 
 ## Welcome
 
-The plans for our weekend are detailed below. If you have any enquiries then please pop along and see us in Caravan 44, if we are not in then please call our mobiles.
+The plans for our weekend are detailed below. If you have any enquiries then please pop along and see us in Caravan 43, if we are not in then please call our mobiles.
 Jo: 07594884725
 Roxy: 07342678869
 iow.triumphsportsix.club
