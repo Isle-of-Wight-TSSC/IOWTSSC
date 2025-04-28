@@ -16,5 +16,5 @@
 | &#x21b1;           | **Right** onto Knighton shute                                                                                   | 9.4   |
 | &#x29BD;           | **Straight** across the cross roads                                                                             | 12.3  |
 | &#x21b1;           | **Right** at the t-junction                                                                                      | 12.8  |
-| &#x29BD;           | **Straight** across the mini roundabout towards Worxall                                                         | 13.7  |
+| &#x29BD;           | **Straight** across the mini roundabout towards Wroxall                                                         | 13.7  |
 | &#x21b1;           | **Right** into the Donkey Sanctuary                                                                             | 14    |
