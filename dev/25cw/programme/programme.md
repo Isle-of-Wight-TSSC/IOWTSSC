@@ -28,12 +28,12 @@ iow.triumphsportsix.club
 
 Friday evening is a social night for a drink and a catch up in the clubhouse.
 
-Saturday we are heading out to The Donkey Sanctuary for a complimentary hotdog, etc. Drinks and snacks also available to purchase from the cafe. with free guided tours.
+Saturday we are heading out to The Donkey Sanctuary for a complimentary hotdog, etc. Drinks and snacks also available to purchase from the cafe, with free guided tours available.
 (Please see Jo & Roxy on the day for your food ticket.)
 
 In the evening, The Scores will be providing music from **8.30pm**, looking forward to having a boogie.
 
-Sunday our drive out will end up at the The Needles.For reduced entrance of **£3 please show your programme**.
+Sunday our drive out will end up at the The Needles.For reduced parking of **£3 please show your programme**.
 
 The Ice Cream Van will be at the campsite from **4.30pm**, followed by bingo (**6** tickets @ **£1.50**) and a table top quiz.
 
