@@ -17,7 +17,7 @@
 | &#x21b0;          | **Left** on to Merstone Lane                                                                                     | 8.4   |
 | &#x21b0;          | **Left** at the T-junction                                                                                       | 10.2  |
 | &#x21b1;          | **Right** at the junction onto west street towards Blackgang                                                     | 11.3  |
-| &#x21b0;          | **Left** at junction onto Kemming road                                                                           | 14.2  |
+| &#x21b1;          | **Right** at junction onto Kemming road                                                                           | 14.2  |
 | &#x21b0;          | **Left** at cross roads                                                                                          | 15.4  |
 | &#x21b1;          | **Right** at junction towards Blackgang follow the left lane out of Niton                                        | 15.5  |
 | 2^nd^             | **Second** exit at roundabout                                                                                    | 17.1  |
