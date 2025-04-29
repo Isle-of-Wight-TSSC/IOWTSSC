@@ -35,7 +35,7 @@ In the evening, The Scores will be providing music from **8.30pm**, looking forw
 
 Sunday our drive out will end up at the The Needles. For reduced parking of **£3 please show your programme**.
 
-The Ice Cream Van will be at the campsite from **4.30pm**, followed by bingo (**6** tickets @ **£1.50**) and a table top quiz.
+The Ice Cream Van will be at the campsite from **6pm**, followed by bingo (**6** tickets @ **£1.50**) and a table top quiz.
 
 Monday midday will be a farewell lunch at the The Wight Mouse.
 
