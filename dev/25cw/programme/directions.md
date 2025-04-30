@@ -10,7 +10,12 @@ html:
 
 print_background: false
 ---
+links to google maps routes:
 
-![tank](/dev/25cw/programme/saturday.md)
-![steam](/dev/25cw/programme/sunday.md)
-![folly](/dev/25cw/programme/monday.md)
+- [Saturday](https:sat.triumphsportsix.club)
+- [Sunday](https:sun.triumphsportsix.club)
+- [Monday](https:samont.triumphsportsix.club)
+
+![sat](/dev/25cw/programme/saturday.md)
+![sun](/dev/25cw/programme/sunday.md)
+![mon](/dev/25cw/programme/monday.md)
