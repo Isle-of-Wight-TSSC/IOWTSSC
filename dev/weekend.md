@@ -14,6 +14,15 @@ print_background: false
 # Isle of Wight Triumph weekend
 
 ![menubar](/dev/menubar.md)
+
+# Alternate Route
+
+sunday
+[google maps link](https://maps.app.goo.gl/At3jqyZSwZyJHXBv6)
+Monday
+[google maps link](https://maps.app.goo.gl/xp1y7tYqdMQ1mbbc7)
+
+
 Thanks you to all who came along to the triumph weekend last year and helped us complete a smooth transition by being so accommodating. We hope you all had a good time.
 
 Looking forward to seeing you this year over the [first May Bank Holiday](/iow.ics), Friday 2^nd^ May to Monday 5^th^ May 2025 at the usual venue, [Waverley Park Holiday Centre](https://www.waverleypark.co.uk/) in East Cowes.
