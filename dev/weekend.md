@@ -15,24 +15,19 @@ print_background: false
 
 ![menubar](/dev/menubar.md)
 
-# Alternate Route
+Jo, I (and Luna) would like to thank you all so much for such a wonderful weekend! The fact it stayed dry is a bonus We had the best time and loved seeing familiar faces and new ones
+We hope you booked for next year:
+Friday 1st - Monday 4th May 2026
+We love seeing your photos so please continue to post them on our social media.
+here are some of our photos
 
-sunday
-[google maps link](https://maps.app.goo.gl/At3jqyZSwZyJHXBv6)
-Monday
-[google maps link](https://maps.app.goo.gl/xp1y7tYqdMQ1mbbc7)
+Arriving at the donkey sanctuary.
+![donkey](/assets/25/donkey.webp)
+Convoy getting ready to drive to the needles.
+![drone](/assets/25/drone.webp)
+Quacker's at the needles (he's now been sent of with the boys from norfolk).
+![quackers](/assets/25/quack.webp)
+and last but not least we have the winner of the Tracy Cleaver Cup, HED 333N a beautiful purple stag owned by Sara Budden.
+![winner](/assets/25/winner.webp)
 
-
-Thanks you to all who came along to the triumph weekend last year and helped us complete a smooth transition by being so accommodating. We hope you all had a good time.
-
-Looking forward to seeing you this year over the [first May Bank Holiday](/iow.ics), Friday 2^nd^ May to Monday 5^th^ May 2025 at the usual venue, [Waverley Park Holiday Centre](https://www.waverleypark.co.uk/) in East Cowes.
-
-![timetable](25cw/programme/timetable.md)
-
-![convor directions](25cw/programme/directions.md)
-
-
-
-This years [booking form](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__ev73N1UQUg4Q1pHR0dGOUdHVllUWTNGWFI5R0IwUy4u)
-
-<iframe src="https://free.timeanddate.com/countdown/i96aulz5/n2478/cf12/cm0/cu2/ct0/cs1/cac000/co1/cr0/ss0/cac000/cpc000/pcfff/tcfff/fs100/tatTime%20until%20IOW%20TSSC%20Triumph%20Weekend/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2025-05-02T16:00:00" allowtransparency="true" frameborder="0" width="327" height="47"></iframe>
+<iframe src="https://free.timeanddate.com/countdown/i96aulz5/n2478/cf12/cm0/cu2/ct0/cs1/cac000/co1/cr0/ss0/cac000/cpc000/pcfff/tcfff/fs100/tatTime%20until%20IOW%20TSSC%20Triumph%20Weekend/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2026-05-01T16:00:00" allowtransparency="true" frameborder="0" width="327" height="47"></iframe>
