@@ -17,4 +17,4 @@ print_background: false
 
 ## Isle of Wight Triumph Weekend
 
-The [Isle of Wight Triumph Weekend](/weekend.html) will be held over the [first May Bank Holiday](/iow.ics), Friday 2^nd^ May to Monday 5^th^ May 2025.
+The [Isle of Wight Triumph Weekend](/weekend.html) will be held over the [first May Bank Holiday](/iow.ics), Friday 1^st^ May to Monday 4^th^ May 2026.

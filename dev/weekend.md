@@ -16,7 +16,7 @@ print_background: false
 ![menubar](/dev/menubar.md)
 
 Jo, I (and Luna) would like to thank you all so much for such a wonderful weekend! The fact it stayed dry is a bonus. We had the best time and loved seeing familiar faces and new ones too.
-We hope you booked for next year: Friday 1st - Monday 4th May 2026
+We hope you booked for next year: Friday 1^st^ - Monday 4^th^ May 2026
 We love seeing your photos so please continue to post them on our social media.
 Here are some of our photo highlights;
 
