@@ -11,9 +11,9 @@ html:
 print_background: false
 ---
 
-![directions](/dev/25cw/programme/directions.md)
+![directions](/dev/26cw/programme/directions.md)
 
-![logo](/dev/25cw/logo/rock.svg)
+![logo](/dev/26cw/logo/rock.svg)
 
 # Programme of Events
 
@@ -39,7 +39,7 @@ The Ice Cream Van will be at the campsite from **6pm**, followed by bingo (**6**
 
 Monday midday will be a farewell lunch at the The Wight Mouse.
 
-![time table](/dev/25cw/programme/timetable.md)
+![time table](/dev/26cw/programme/timetable.md)
 
 We hope you all have a fantastic weekend, but to ensure everybody has a good time please observe Waverley Park Holiday Centre’s rules, which are available online at www.waverleypark.co.uk/park-rules and please be courteous to fellow guests. Thank you to everyone who has helped us make this event happen and especially to you for attending.
 
