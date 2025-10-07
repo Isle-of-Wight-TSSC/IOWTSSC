@@ -15,10 +15,11 @@ print_background: false
 
 ![menubar](/dev/menubar.md)
 
-## July Brunch Run
+## October run
 
-Our next run is Saturday July 26th! We'll be starting from [Blackgang viewpoint](https://w3w.co/hobble.sampled.skimmers) at 10am and driving to go to [Goddards brewery](https://w3w.co/surpassed.lump.vowel) for their [vintage vehicle day](https://www.facebook.com/share/p/1Net6Pkp7L/?mibextid=wwXIfr). There will be a 10% discount for all arriving in a classic.
-Please let us know if you are joining so we can let them know numbers.
+For October’s run we are heading out to [The Cow](https://w3w.co/applied.casually.crumbles) at Tapnell Farm for lunch on Sunday 26th at midday.
+We will be meeting at [Carisbrooke priory](https://w3w.co/frown.loved.vented) car park at 11:15am to leave at 11:30am.
+It would be great to see you there, please let us know if you plan on joining us.
 
 ## Isle of Wight Triumph Weekend
 
