@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-
+Disallow: /gitignore/
 Sitemap: https://iow.triumphsportsix.club/sitemap.xml
