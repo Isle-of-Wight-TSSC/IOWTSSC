@@ -15,7 +15,7 @@ print_background: false
 
 ![menubar](/dev/menubar.md)
 
-Our weekend is back again and this year we are going to [Sandown airport](https://www.eghn.org.uk/) and [wight aviation museum](https://wightaviationmuseum.org.uk/) on saturday for our BBQ and on sunday we are heading over to [Osburne house](https://www.english-heritage.org.uk/visit/places/osborne/) with free entry to the grounds and then reduced entry to the house. Then on monday we will be having our Farewell meal at the [Wigth Mouse](https://www.wightmouse.co.uk/) at noon.
+Our weekend is back again and this year we are going to [Sandown Airport](https://www.eghn.org.uk/) and [Wight Aviation Museum](https://wightaviationmuseum.org.uk/) on Saturday for our BBQ and on Sunday we are heading over to [Osborne House](https://www.english-heritage.org.uk/visit/places/osborne/) with free entry to the grounds and then reduced entry to the house. Then on Monday we will be having our farewell meal at the [Wigth Mouse](https://www.wightmouse.co.uk/) at noon.
 
 [2026 booking form](https://forms.office.com/r/gENymw1mBs)
 
