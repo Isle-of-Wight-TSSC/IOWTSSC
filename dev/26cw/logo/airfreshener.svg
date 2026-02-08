@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.8338906"
-     inkscape:cx="342.71401"
-     inkscape:cy="88.609429"
+     inkscape:zoom="1.2967565"
+     inkscape:cx="421.4361"
+     inkscape:cy="126.85497"
      inkscape:window-width="1920"
      inkscape:window-height="1022"
      inkscape:window-x="1920"
      inkscape:window-y="30"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g48" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs1" />
   <g
@@ -182,20 +182,9 @@
            id="path17" />
       </g>
     </g>
-    <text
-       xml:space="preserve"
-       style="font-size:7.27484px;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;clip-rule:evenodd;fill:#00448c;fill-opacity:1;fill-rule:evenodd;stroke-width:0.89238;stroke-miterlimit:2;stroke-dasharray:none;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-       x="91.444321"
-       y="-100.41997"
-       id="text43"
-       transform="rotate(90)"><tspan
-         sodipodi:role="line"
-         id="tspan2">Triumph Sports</tspan><tspan
-         sodipodi:role="line"
-         id="tspan3">Six Club</tspan></text>
     <g
        id="g48"
-       transform="matrix(0.29411792,0,0,0.29411792,70.178422,20.856522)"
+       transform="matrix(0.29411792,0,0,0.29411792,70.178422,20.014369)"
        style="clip-rule:evenodd;fill-rule:evenodd;stroke-miterlimit:2">
       <g
          id="g47"
@@ -434,5 +423,22 @@
          style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
          transform="matrix(1.3333333,0,0,-1.3333333,372.28293,270.07667)" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.27485px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#00448c;fill-opacity:1;stroke-width:0.389467"
+       x="91.369728"
+       y="-100.30705"
+       id="text10"
+       transform="rotate(90)"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="stroke-width:0.389467"
+         x="91.369728"
+         y="-100.30705">Triumph Sport</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.389467"
+         x="91.369728"
+         y="-91.213493"
+         id="tspan11">Six Club</tspan></text>
   </g>
 </svg>
