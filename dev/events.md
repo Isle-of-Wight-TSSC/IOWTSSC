@@ -15,6 +15,10 @@ print_background: false
 
 ![menubar](/dev/menubar.md)
 
+## March brunch run
+
+Our next run is Sunday 21^st^ of March We’ll be starting from the [Carisbrooke priory car park](https://w3w.co/frown.loved.vented) at 10:30am and driving to [the Old Smithy](/ttps://w3w.co/rescue.timed.soon) at 11am. Please let us know if you’re planning to join us so we can let them know how many seats we need. Can’t wait to see you all there!
+
 ## Isle of Wight Triumph Weekend
 
 The [Isle of Wight Triumph Weekend](/weekend.html) will be held over the [first May Bank Holiday](/iow.ics), Friday 1^st^ May to Monday 4^th^ May 2026.
