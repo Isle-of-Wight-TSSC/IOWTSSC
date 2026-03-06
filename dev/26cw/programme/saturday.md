@@ -11,19 +11,21 @@
 | 1^st^              | **First** exit at roundabout                                                                                    | 3.3   |
 | &#x21b1;           | Drive 0.2 of a mile turn **Right** into Park Road (DON'T turn into the Crematorium)                             | 3.4   |
 | &#x29BD;           | **Straight** across the mini roundabout onto Briddlesford road                                                  | 4.3   |
-| &#x21b0;           | **Left** onto Combley road                                                                                      |       |
-| &#x21b1;           | **Right** on to stroud wood road                                                                                |       |
-| 3^rd^              | **Third** exit onto gatehouse road                                                                              |       |
-| &#x21c3;           | **dogleg Right then Left** onto green lane                                                                      |       |
-| 1^st^              | **First** exit at roundabout                                                                                    |       |
-| &#x21b1; &#x1F6A6; | **Right** at the traffic lights                                                                                 |       |
-| 2^nd^              | **Second** exit at the mini roundabout onto station rd                                                          |       |
-| &#x21b0;           | **Left** onto foreland road                                                                                     |       |
-| 1^st^              | **First** exit at mini roundabout                                                                               |       |
-| &#x21b0;           | **Left** at T-Junction                                                                                          |       |
-| 1^st^              | **First** exit at mini roundabout                                                                               |       |
-| &#x21b0; &#x1F6A6; | **Left** at the traffic lights                                                                                  |       |
-| &#x21b1; &#x1F6A6; | **Right** at the traffic lights                                                                                 |       |
-| 2^nd^              | **Second** exit at roundabout                                                                                   |       |
-| 2^nd^              | **Second** exit at roundabout                                                                                   |       |
-| &#x21b1;           | **Right** into isle of wight airport                                                                            |       |
+| &#x21b0;           | **Left** onto Combley road                                                                                      | 5.3   |
+| &#x21b1;           | **Right** on to stroud wood road                                                                                | 7.7   |
+| 3^rd^              | **Third** exit onto gatehouse road                                                                              | 8.6   |
+| &#x21c3;           | **dogleg Right then Left** onto green lane                                                                      | 9.9   |
+| 1^st^              | **First** exit at roundabout                                                                                    | 11.7  |
+| &#x21b1; &#x1F6A6; | **Right** at the traffic lights                                                                                 | 12.2  |
+| 2^nd^              | **Second** exit at the mini roundabout onto station rd                                                          | 13.7  |
+| 3^rd^              | **Third** exit at mini roundabout                                                                               | 16.1  |
+| 1^st^              | **First** exit at mini roundabout                                                                               | 18.6  |
+| 1^st^              | **First** exit at mini roundabout                                                                               | 20.1  |
+| &#x21b0;           | **Left** onto Pier street                                                                                       | 20.3  |
+| &#x21b0;           | **Left** at T-Junction                                                                                          | 20.7  |
+| 1^st^              | **First** exit at mini roundabout                                                                               | 20.8  |
+| &#x21b0; &#x1F6A6; | **Left** at the traffic lights                                                                                  | 21.3  |
+| &#x21b1; &#x1F6A6; | **Right** at the traffic lights                                                                                 | 21.8  |
+| 2^nd^              | **Second** exit at roundabout                                                                                   | 22.3  |
+| 2^nd^              | **Second** exit at roundabout                                                                                   | 22.5  |
+| &#x21b1;           | **Right** into isle of wight airport                                                                            | 22.6  |
