@@ -23,3 +23,4 @@
 | 2^nd^             | **Second** exit at roundabout                                                                                   | 16.3  |
 | &#x21b1;          | **Right** onto Afton road                                                                                       | 27.2  |
 | &#x21b1;          | **Right** onto The Middle road                                                                                  | 27.7  |
+| &#x21b0;          | **Left** onto Betty Haunt Ln                                                                                    | 35.3  |
