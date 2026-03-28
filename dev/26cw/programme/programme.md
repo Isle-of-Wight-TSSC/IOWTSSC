@@ -55,6 +55,6 @@ Jo and Roxy
 - All convoys will start at the bottom of the campsite heading out the exit to the Esplanade, mileage is provided as a guide as odometers may vary in our classic cars if leaving from main site entrance mileage will be 0.5 miles short.
 
 - Put next year’s date in your diary…
-  **1^st^ - 4^th^ May 2026**
+  **30^th^ April - 3^rd^ May 2027**
 
 ![qr code](/assets/qr.svg)
