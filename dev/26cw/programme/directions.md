@@ -14,7 +14,7 @@ links to google maps routes:
 
 - [Saturday](https:sat.triumphsportsix.club)
 - [Sunday](https:sun.triumphsportsix.club)
-- [Monday](https:samont.triumphsportsix.club)
+- [Monday](https:mon.triumphsportsix.club)
 
 ![sat](/dev/26cw/programme/saturday.md)
 ![sun](/dev/26cw/programme/sunday.md)

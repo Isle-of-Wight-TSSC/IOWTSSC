@@ -28,4 +28,4 @@
 | &#x21b1; &#x1F6A6; | **Right** at the traffic lights                                                                                 | 21.8  |
 | 2^nd^              | **Second** exit at roundabout                                                                                   | 22.3  |
 | 2^nd^              | **Second** exit at roundabout                                                                                   | 22.5  |
-| &#x21b1;           | **Right** into isle of wight airport                                                                            | 22.6  |
+| &#x21b1;           | **Right** into Isle of Wight Airport                                                                            | 22.6  |

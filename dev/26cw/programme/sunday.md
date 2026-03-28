@@ -1,6 +1,6 @@
-### Sunday's convoy to the Needles
+### Sunday's convoy to Osborne House
 
-///fees.wedge.doses PO39 0JD
+///diverts.nicer.broads PO32 6JX
 
 | Sign              | Direction                                                                                                       | Miles |
 | ----------------- | --------------------------------------------------------------------------------------------------------------- | ----- |
@@ -23,4 +23,10 @@
 | 2^nd^             | **Second** exit at roundabout                                                                                   | 16.3  |
 | &#x21b1;          | **Right** onto Afton road                                                                                       | 27.2  |
 | &#x21b1;          | **Right** onto The Middle road                                                                                  | 27.7  |
-| &#x21b0;          | **Left** onto Betty Haunt Ln                                                                                    | 35.3  |
+| &#x21b0;          | **Left** onto Betty Haunt Ln                                                                                    | 34.8  |
+| &#x21b1;          | **Right** onto Forest road                                                                                      | 35.8  |
+| &#x21b1;&#x1F6A6; | **Right** onto The dual carriageway                                                                             | 37.8  |
+| &#x21b0;&#x1F6A6; | **Left** onto A3054                                                                                             | 38.5  |
+| 1^st^             | **First** exit at roundabout                                                                                    | 40.7  |
+| 2^nd^             | **Second** exit at roundabout                                                                                   | 42.3  |
+| &#x21b1;          | **Right** into Osborne House                                                                                    | 42.6  |
