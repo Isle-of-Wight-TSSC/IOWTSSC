@@ -24,8 +24,7 @@ print_background: false
 The plans for our weekend are detailed below. If you have any enquiries then please pop along and see us in Caravan 43, if we are not in then please call our mobiles.
 Jo: 07594884725
 Roxy: 07342678869
-iow.triumphsportsix.club
-
+[iow.triumphsportsix.club](https://iow.triumphsportsix.club)
 Friday evening is a social night for a drink and a catch up in the clubhouse.
 
 Saturday we are heading out to The Isle of Wight Airport for a complimentary meal, etc. Drinks and snacks also available to purchase from the cafe, there is also the Wight heritage Museum on site.
@@ -41,12 +40,12 @@ Monday midday will be a farewell lunch at the The Wight Mouse.
 
 ![time table](/dev/26cw/programme/timetable.md)
 
-We hope you all have a fantastic weekend, but to ensure everybody has a good time please observe Waverley Park Holiday Centre’s rules, which are available online at www.waverleypark.co.uk/park-rules (**5MPH** site speed limit)and please be courteous to fellow guests. Thank you to everyone who has helped us make this event happen and especially to you for attending.
+We hope you all have a fantastic weekend, but to ensure everybody has a good time please observe Waverley Park Holiday Centre’s rules, which are available online at [www.waverleypark.co.uk/park-rules](https://www.waverleypark.co.uk/park-rules) (**5MPH** site speed limit)and please be courteous to fellow guests. Thank you to everyone who has helped us make this event happen and especially to you for attending.
 
 Zip Zooming
 Jo and Roxy
 
-### Additional Information:
+### Additional Information
 
 - Jane Rowley is kindly giving up her own time this weekend to do TSSC Valuations, so please bear this in mind when arranging an appointment with her, many thanks
 
