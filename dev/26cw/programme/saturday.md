@@ -14,7 +14,7 @@
 | &#x21b0;           | **Left** onto Combley road                                                                                      | 5.3   |
 | &#x21b1;           | **Right** on to stroud wood road                                                                                | 7.7   |
 | 3^rd^              | **Third** exit onto gatehouse road                                                                              | 8.6   |
-| &#x21c3;           | **dogleg Right then Left** onto green lane                                                                      | 9.9   |
+| &#x21c4;           | **Dogleg Right then Left** onto green lane                                                                      | 9.9   |
 | 1^st^              | **First** exit at roundabout                                                                                    | 11.7  |
 | &#x21b1; &#x1F6A6; | **Right** at the traffic lights                                                                                 | 12.2  |
 | 2^nd^              | **Second** exit at the mini roundabout onto station rd                                                          | 13.7  |
