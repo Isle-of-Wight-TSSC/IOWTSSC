@@ -10,7 +10,7 @@ html:
 
 print_background: false
 ---
-links to google maps routes:
+Links to google maps routes:
 
 - [Saturday![Saturday convoy](/assets/sat.png)](http://sat.triumphsportsix.club)
 - [Sunday![Sunday convoy](/assets/sun.png)](http://sun.triumphsportsix.club)
