@@ -12,9 +12,9 @@ print_background: false
 ---
 links to google maps routes:
 
-- [Saturday](http://sat.triumphsportsix.club)
-- [Sunday](http://sun.triumphsportsix.club)
-- [Monday](http://mon.triumphsportsix.club)
+- [Saturday![Saturday convoy](/assets/sat.png)](http://sat.triumphsportsix.club)
+- [Sunday![Sunday convoy](/assets/sun.png)](http://sun.triumphsportsix.club)
+- [Monday![monday convoy](/assets/mon.png)](http://mon.triumphsportsix.club)
 
 ![sat](/dev/26cw/programme/saturday.md)
 ![sun](/dev/26cw/programme/sunday.md)
