@@ -15,14 +15,6 @@ print_background: false
 
 ![menubar](/dev/menubar.md)
 
-## Drive-It Day Sunday 26th April
-
-We are away that weekend so Jason and Elaine are kindly stepping in to organise.
-
-We are meeting at Blackgang Viewpoint carpark at 11:30 then heading out to IOW Pearl for lunch at 12:00
-
-Please let us know if you’re coming to join us, so Jason and Elaine can let the cafe know.
-
 ## Isle of Wight Triumph Weekend
 
 The [Isle of Wight Triumph Weekend](/weekend.html) will be held over the [first May Bank Holiday](/iow.ics), Friday 1^st^ May to Monday 4^th^ May 2026.
