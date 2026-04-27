@@ -30,11 +30,11 @@ Friday evening is a social night for a drink and a catch up in the clubhouse.
 Saturday we are heading out to The Isle of Wight Airport for a complimentary meal, etc. Drinks and snacks also available to purchase from the cafe, there is also the Wight heritage Museum on site.
 (Please see Jo & Roxy on the day for your food ticket.)
 
-The Ice Cream Van will be at the campsite from **6pm**, followed by bingo (**6** tickets @ **£1.50**) and a table top quiz.
+The Ice Cream Van will be at the campsite from **6:30pm**, followed The Millennials will be providing music from **8pm**, looking forward to having a boogie.
 
 Sunday our drive out will end up at the Osborne (with free grounds entry and reduced house entry). please note the **10MPH** site speed limit.
 
-In the evening, The ???? will be providing music from **8.30pm**, looking forward to having a boogie.
+In the evening, bingo (6 tickets @ £1.50) and a table top quiz.
 
 Monday midday will be a farewell lunch at the The Wight Mouse.
 
