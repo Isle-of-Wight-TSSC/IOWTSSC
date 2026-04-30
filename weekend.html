@@ -23,14 +23,14 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML ="Time until IOW TSSC Weekend<p>" + days + "d " + hours + "h "
+  // Display the result in the element with id="timer"
+  document.getElementById("timer").innerHTML ="Time until IOW TSSC Weekend<p>" + days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "";
+    document.getElementById("timer").innerHTML = "";
   }
 }, 1000);
 </script>
@@ -54,7 +54,7 @@ var x = setInterval(function() {
 <p></p>
 <p>Our weekend is back again and this year we are going to <a href="https://www.eghn.org.uk/">Sandown Airport</a> and <a href="https://wightaviationmuseum.org.uk/">Wight Aviation Museum</a> on Saturday for our BBQ and on Sunday we are heading over to <a href="https://www.english-heritage.org.uk/visit/places/osborne/">Osborne House</a> with free entry to the grounds and then reduced entry to the house. Then on Monday we will be having our farewell meal at the <a href="https://www.wightmouse.co.uk/">Wight Mouse</a> at noon.</p>
 <p><a href="https://forms.office.com/r/gENymw1mBs">2026 booking form</a></p>
-<p id="demo"></p>
+<p id="timer"></p>
 <p></p><h3 id="timetable">Timetable </h3>
 <table>
 <thead>
