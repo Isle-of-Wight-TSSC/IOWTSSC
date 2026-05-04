@@ -15,13 +15,19 @@ print_background: false
 
 ![menubar](/dev/menubar.md)
 
-Our weekend is back again and this year we are going to [Sandown Airport](https://www.eghn.org.uk/) and [Wight Aviation Museum](https://wightaviationmuseum.org.uk/) on Saturday for our BBQ and on Sunday we are heading over to [Osborne House](https://www.english-heritage.org.uk/visit/places/osborne/) with free entry to the grounds and then reduced entry to the house. Then on Monday we will be having our farewell meal at the [Wight Mouse](https://www.wightmouse.co.uk/) at noon.
+The IOW kicked off the summer season with an incredible bank holiday weekender! We had a record breaking year of 77 Triumphs, over 150 people and even some classic friends such as a mini and an e-type.
 
-[2026 booking form](https://forms.office.com/r/gENymw1mBs)
+Friday was spent catching up in the clubhouse over a pint (or five!) it was great to see everyone; old faces and new.
 
-<iframe src="https://free.timeanddate.com/countdown/i96aulz5/n2478/cf12/cm0/cu2/ct0/cs1/cac000/co1/cr0/ss0/cac000/cpc000/pcfff/tcfff/fs100/tatTime%20until%20IOW%20TSSC%20Triumph%20Weekend/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2026-05-01T16:00:00" allowtransparency="true" frameborder="0" width="327" height="47"></iframe>
+Saturday’s convoy took us on a 22 mile drive through twisty lanes and along Bembridge Habour and Sandown seafront, before ending up at Sandown Airport. They put on a delicious lunch for us, and it was wonderful looking at the cars and planes in the sun. We had a fantastic evening watching The Millennials in the clubhouse, seeing everyone dance and sing along was brilliant!
 
-![timetable](/dev/26cw/programme/timetable.md)
+Sunday took us on a 42 mile drive along the Military Road to Freshwater and back along Middle Road to end up at Osborne House. Seeing the cars drive past the house itself was incredibly special!
 
-- [Waverley park![Waverley site map](https://static.wixstatic.com/media/f1d73c_0ac9b6b5b05d4f919d0b4aac5abc465a~mv2.jpg/v1/fill/w_850,h_1400,al_c,q_85,enc_avif,quality_auto/Site%20Plan%203%20coloured%20coded.jpg)](https://www.waverleypark.co.uk/site-plan)
-![directions](/dev/26cw/programme/directions.md)
+Bingo and a quiz was the evening entertainment and congratulations to Martin, Caroline, Eddie and Mary for winning car of the show with there 2000 mk2 ECG 849K!
+
+![car of the show](/assets/26/ECG_849K.jpeg)
+
+We finished the weekend with a lunch at The Wight Mouse, sitting in the sun was the best way to say farewell!
+
+We’d like to thank you all so much for coming, it has been our favourite weekend yet! Special thank you to Elaine & Jason for all of your support and Jane Rowley for yet again giving up her free time to complete valuations.
+We hope to see you next year: 30th April - 3rd May 2027!
