@@ -6,7 +6,7 @@ BEGIN:VEVENT
 CLASS:PUBLIC
 ORGANIZER;CN=IOW TSSC:MAILTO:IOW@triumphsportsix.club
 DESCRIPTION:IOW Area Triumph Weekend 2027
-URL:https://iow.triumphsportsix.club
+URL:https://iow.triumphsportsix.club/weekend
 DTEND;VALUE=DATE:20270503
 DTSTART;VALUE=DATE:20270430
 GEO:50.760093;-1.284139
