@@ -15,17 +15,17 @@ print_background: false
 
 ![menubar](/dev/menubar.md)
 
-## June run
+## June Run
 
 On the Friday the 12^th^ we will be leaving [Carisbrooke priory](https://w3w.co/frown.loved.vented) at 5:30pm going via Calbourne then Brighstone to [Freshwater](https://w3w.co/moped.rebounded.powering) for the [Wight Wood Pizza Van](https://www.wightwoodpizza.co.uk) at 6pm
 
-## July run
+## July Run
 
 On Saturday the 18^th^ we will be leaving [Coppins bridge upper car park](https://w3w.co/alley.stared.upsetting) at 11:30am to get to [Goddards](https://goddardsbrewery.com/events/goddards-motor-meets-summer-series-2026/?occurrence=2026-07-18&time=1784376000) for there motor meets for 12pm
 
-## August run
+## August Run
 
-On Friday the 28^th^ we will be leaving [Brading viewpoint](https://w3w.co/outlast.choppers.resurgent) at 5:30pm and going via newchurch to get to 6pm [harvey brown sunset session](https://www.harveybrowns.co.uk/event/sunset-social-2026/)
+On Friday the 28^th^ we will be leaving [Brading viewpoint](https://w3w.co/outlast.choppers.resurgent) at 4:30pm and going via newchurch to get to 5pm [harvey brown sunset session](https://www.harveybrowns.co.uk/event/sunset-social-2026/). We will be getting there early to secure a table, if you plan to join us later that is fine, but please let us know so we can grab you a seat.
 
 ## Isle of Wight Triumph Weekend
 
