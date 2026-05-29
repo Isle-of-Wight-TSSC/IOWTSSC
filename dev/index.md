@@ -16,7 +16,7 @@ print_background: false
 ![menubar](/dev/menubar.md)
 
 The Isle of Wight TSSC Area was formed back in 1988 when Paul and Jason first had the idea It has been going strong ever since!
-![Jason sat on this spitfire with flags at lemans](/assets/jasonlemans.webp)
+![Jason sat on this spitfire with flags at lemans](/assets/jasonlemans.webp){width="100%"}
 There are lots of the cars still around, some with their original owners, as well as some having been owned by more than one member. It has also brought new cars to the Island.
 
 We are a friendly bunch - our meetings usually start with a drive out and alternate between a brunch run and an evening pub meet. All are welcome with friends or family, whether your car is on the road or not. Suggestions are always welcome.
