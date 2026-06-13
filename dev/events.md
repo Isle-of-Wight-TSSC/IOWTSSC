@@ -15,10 +15,6 @@ print_background: false
 
 ![menubar](/dev/menubar.md)
 
-## June Run
-
-On the Friday the 12^th^ we will be leaving [Carisbrooke priory](https://w3w.co/frown.loved.vented) at 5:30pm going via Calbourne then Brighstone to [Freshwater](https://w3w.co/moped.rebounded.powering) for the [Wight Wood Pizza Van](https://www.wightwoodpizza.co.uk) at 6pm
-
 ## July Run
 
 On Saturday the 18^th^ we will be leaving [Coppins bridge upper car park](https://w3w.co/alley.stared.upsetting) at 11:30am to get to [Goddards](https://goddardsbrewery.com/events/goddards-motor-meets-summer-series-2026/?occurrence=2026-07-18&time=1784376000) for there motor meets for 12pm
