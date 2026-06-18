@@ -2,6 +2,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
   <circle style="stroke: rgb(0, 0, 0); stroke-width: 1; fill: none;" cx="10" cy="18" r="1"/>
   <circle style="fill: none; stroke: rgb(0, 0, 0);" cx="10" cy="10" r="4"/>
-  <path style="fill: rgb(255, 255, 255); stroke: rgb(255, 255, 255);" d="M 10 10 L 13 6 L 12 3 L 10 8 L 10 10 Z"/>
-  <path style="stroke: rgb(0, 0, 0); stroke-width: 0px;" d="M 11 5.969 L 9.988 5 L 8.988 5 L 9.988 6 L 8.988 7 L 9.988 7 L 11 5.969 Z"/>
+  <g id="arrow" >
+    <path style="fill: rgb(255, 255, 255); stroke: rgb(255, 255, 255);" d="M 10 10 L 13 6 L 12 3 L 10 8 L 10 10 Z"/>
+    <path style="stroke: rgb(0, 0, 0); stroke-width: 0px;" d="M 11 6 L 10 5 L 9 5 L 10 6 L 9 7 L 10 7 L 11 6 Z"/>
+  </g>
+  <use href="#arrow" transform="rotate(120, 10, 10)"/>
+  <use href="#arrow" transform="rotate(240, 10, 10)"/>
 </svg>
