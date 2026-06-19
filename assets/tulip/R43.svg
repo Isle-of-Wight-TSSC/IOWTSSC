@@ -3,5 +3,5 @@
   <circle style="stroke: rgb(0, 0, 0); stroke-width: 1; fill: none;" cx="10" cy="18" r="1"/>
   <circle style="fill: none; stroke: rgb(0, 0, 0);" cx="10" cy="10" r="3"/>
   <path style="fill: none; stroke: rgb(0, 0, 0);" d="M 10 17 L 10 13 M 13 10 L 17 10 M 7 10 L 3 10 M 10 3 L 10 7 M 15 12 L 17 10 L 15 8"/>
-  <path style="fill: none; stroke: rgb(255, 255, 255);" d="M 10 10 L 14 14" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, -8.881784197001252e-16, -4.440892098500626e-16)"/>
+  <path style="fill: none; stroke: rgb(255, 255, 255);" d="M 10 10 L 13 13" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, -8.881784197001252e-16, -4.440892098500626e-16)"/>
 </svg>
