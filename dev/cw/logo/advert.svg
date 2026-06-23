@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+cw<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="95.440536mm"
-   height="51.242207mm"
-   viewBox="0 0 95.440546 51.242206"
+   width="97.031822mm"
+   height="82.220001mm"
+   viewBox="0 0 97.031822 82.220001"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="rock.svg"
+   sodipodi:docname="advert.svg"
    inkscape:export-filename="/home/jo/Documents/tssc/dev/26cw/advert.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -27,8 +27,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.1717262"
-     inkscape:cx="154.04623"
-     inkscape:cy="133.13691"
+     inkscape:cx="160.02032"
+     inkscape:cy="132.28347"
      inkscape:window-width="1366"
      inkscape:window-height="706"
      inkscape:window-x="0"
@@ -36,7 +36,7 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      fit-margin-top="1"
-     fit-margin-left="-18"
+     fit-margin-left="1"
      fit-margin-right="1"
      fit-margin-bottom="1" />
   <defs
@@ -66,7 +66,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-12.71265,-77.864876)">
+     transform="translate(-11.121359,-78.041738)">
     <text
        xml:space="preserve"
        style="font-size:9.99628px;line-height:1.25;font-family:Chandas;-inkscape-font-specification:'Chandas, Normal';fill:#154941;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -102,15 +102,71 @@
          y="121.02064">Triumph Weekend</tspan></text>
     <text
        xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.98669px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#154941;fill-opacity:1;stroke:#000000;stroke-width:0.266892;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="12.98911"
+       y="129.65883"
+       id="text11888-5"><tspan
+         sodipodi:role="line"
+         id="tspan10230"
+         x="12.98911"
+         y="129.65883"
+         style="stroke-width:0.266892">iow.triumphsportsix.club</tspan></text>
+    <text
+       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.09642px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.318525"
        x="14.774961"
-       y="127.14896"
+       y="137.203"
        id="text27044"><tspan
          sodipodi:role="line"
          id="tspan27042"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.09642px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.318525"
          x="14.774961"
-         y="127.14896">Friday 1st May to Monday 4th May 2026</tspan></text>
+         y="137.203">Friday 1st May to Monday 4th May 2026</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.50256px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#154941;fill-opacity:1;stroke-width:0.40641"
+       x="14.677852"
+       y="143.55205"
+       id="text32400"><tspan
+         sodipodi:role="line"
+         id="tspan32398"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.50256px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#154941;fill-opacity:1;stroke-width:0.40641"
+         x="14.677852"
+         y="143.55205">Waverley Park Holiday Centre</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.08528px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.255331"
+       x="14.416251"
+       y="148.16499"
+       id="text36742"><tspan
+         sodipodi:role="line"
+         id="tspan36740"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.08528px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.255331"
+         x="14.416251"
+         y="148.16499">51 Old Road, East Cowes, Isle of Wight. P032 6AW.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.23882px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#154941;fill-opacity:1;stroke-width:0.327426"
+       x="28.13925"
+       y="153.1353"
+       id="text43622"><tspan
+         sodipodi:role="line"
+         id="tspan43620"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.23882px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#154941;fill-opacity:1;stroke-width:0.327426"
+         x="28.13925"
+         y="153.1353">www.waverleypark.co.uk</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.4133px;line-height:1.25;font-family:Chandas;-inkscape-font-specification:'Chandas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.275831"
+       x="18.738716"
+       y="158.52045"
+       id="text120484"><tspan
+         sodipodi:role="line"
+         id="tspan18422"
+         x="18.738716"
+         y="158.52045">Email: <tspan
+   style="fill:#154941;fill-opacity:1"
+   id="tspan18424">TSSCIOW@hotmail.com</tspan></tspan></text>
     <path
        style="fill:#154941;fill-opacity:1;stroke:#000000;stroke-width:0.147705px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 21.760316,106.73846 9.314972,-25.39497 5.935135,2.860131 -4.287022,-5.253043 24.388116,1.721512 -2.358401,19.69271 z"
@@ -157,5 +213,6 @@
        id="path4966"
        inkscape:path-effect="#path-effect4968"
        inkscape:original-d="M 38.190839,91.413969 C 34.032314,90.305812 29.87363,89.197516 25.714808,88.08907 c -4.158827,-1.108454 -5.243985,0.189427 -7.866198,0.283918 -2.622212,0.0945 2.116275,3.456475 3.174189,5.184497 1.057918,1.728013 -2.733087,7.378215 -4.099852,11.067125 -1.366765,3.68888 -14.7838895,7.28001 -22.1760559,10.91981" />
+   
   </g>
 </svg>
