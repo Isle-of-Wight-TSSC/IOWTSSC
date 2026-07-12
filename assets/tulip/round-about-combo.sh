@@ -8,6 +8,7 @@ echo '<path style="fill: none; stroke: rgb(0, 0, 0);" d="M 8 4 L 10 2 L 12 4" tr
 
 for i in "${@:2}"; do
   if [ "$i" = "R" ] || [ "$i" = "M" ]; then
+    echo $i
   else
     echo '<use href="#arm" transform="rotate('$(((i + 6) * 30))' 10 10)" />' >> "$OF"
   fi
