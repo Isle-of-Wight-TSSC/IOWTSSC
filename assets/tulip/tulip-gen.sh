@@ -20,4 +20,7 @@ elif [ "$1" = "M" ]; then
   echo '<circle style="stroke: rgb(0, 0, 0); stroke-width: 1; fill: white;" cx="10" cy="10" r="1"/></svg>' >> "$OF"
 elif [ "$1" = "J" ]; then
   echo '</svg>' >> "$OF"
+elif [ "$1" = "T" ]; then
+  echo '<text x="3" y="18" font-size="7">🚦</text></svg>' >> "$OF"
+
 fi
