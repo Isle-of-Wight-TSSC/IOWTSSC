@@ -7,7 +7,7 @@ echo '<circle style="stroke: rgb(0, 0, 0); stroke-width: 1; fill: white;" cx="10
 echo '<path style="fill: none; stroke: rgb(0, 0, 0);" d="M 8 4 L 10 2 L 12 4" transform="rotate('$(( $2 * 30 ))' 10 10)"></path>' >> "$OF"
 
 for i in "${@:2}"; do
-  if [ "$i" = "R" ] || [ "$i" = "M" ]; then
+  if [ "$i" = "R" ] || [ "$i" = "M" ] || [ "$i" = "J" ]; then
     echo $i
   else
     echo '<use href="#arm" transform="rotate('$(((i + 6) * 30))' 10 10)" />' >> "$OF"
@@ -18,4 +18,6 @@ if [ "$1" = "R" ]; then
   echo '<circle style="stroke: rgb(0, 0, 0); stroke-width: 1; fill: white;" cx="10" cy="10" r="3"/><path style="fill: none; stroke: rgb(255, 255, 255);" d="M 10 10 L 13 13"/></svg>' >> "$OF"
 elif [ "$1" = "M" ]; then
   echo '<circle style="stroke: rgb(0, 0, 0); stroke-width: 1; fill: white;" cx="10" cy="10" r="1"/></svg>' >> "$OF"
+elif [ "$1" = "J" ]; then
+  echo '</svg>' >> "$OF"
 fi
