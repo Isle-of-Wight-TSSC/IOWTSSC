@@ -22,5 +22,4 @@ elif [ "$1" = "J" ]; then
   echo '</svg>' >> "$OF"
 elif [ "$1" = "T" ]; then
   echo '<text x="3" y="18" font-size="7">🚦</text></svg>' >> "$OF"
-
 fi
