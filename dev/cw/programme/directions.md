@@ -16,6 +16,6 @@ Links to google maps routes:
 - [Sunday![Sunday convoy](/assets/sun.png)](http://sun.triumphsportsix.club)
 - [Monday![monday convoy](/assets/mon.png)](http://mon.triumphsportsix.club)
 
-![sat](/dev/26cw/programme/saturday.md)
-![sun](/dev/26cw/programme/sunday.md)
-![mon](/dev/26cw/programme/monday.md)
+![sat](/dev/cw/programme/saturday.md)
+![sun](/dev/cw/programme/sunday.md)
+![mon](/dev/cw/programme/monday.md)
