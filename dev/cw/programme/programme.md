@@ -11,9 +11,9 @@ html:
 print_background: false
 ---
 
-![directions](/dev/26cw/programme/directions.md)
+![directions](/dev/cw/programme/directions.md)
 
-![logo](/dev/26cw/logo/rock.svg)
+![logo](/dev/cw/logo/rock.svg)
 
 # Programme of Events
 
@@ -38,7 +38,7 @@ In the evening, bingo (6 tickets @ £1.50) and a table top quiz.
 
 Monday midday will be a farewell lunch at the The Wight Mouse.
 
-![time table](/dev/26cw/programme/timetable.md)
+![time table](/dev/cw/programme/timetable.md)
 
 We hope you all have a fantastic weekend, but to ensure everybody has a good time please observe Waverley Park Holiday Centre’s rules, which are available online at [www.waverleypark.co.uk/park-rules](https://www.waverleypark.co.uk/park-rules) (**5MPH** site speed limit)and please be courteous to fellow guests. Thank you to everyone who has helped us make this event happen and especially to you for attending.
 
