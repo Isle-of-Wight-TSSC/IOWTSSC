@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 # set variables
-
+if [ "$1" == "-h" ]; then
+  echo "Usage: sh `basename $0` Mode Exit Other_Exit1 Other_Exit2 ... where:" 
+  echo "Mode is one of R, M, J, T (for clock bearing) or r, m, j, t (for degree bearing)." 
+  echo "Exit is a number from 1-12 for clock bearing or 0-360 for degree bearing."
+  echo "Other_ExitN are optional additional exits to draw."
+  exit 0
+fi
 for x in $@; do
   OF+=$x'_'
 done
