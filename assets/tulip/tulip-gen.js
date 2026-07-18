@@ -1,6 +1,6 @@
 var currentSvg = "";
 var helpText =
-  'Mode is one of R, M, J, T (bearing by clock position) or r, m, j, t (bearing by degrees). <br>For uppercase modes, Exit and Other exits must be numbers from 0-12. For lowercase modes, Exit and Other exits must be numbers from 0-360.<br>Other_ExitN are optional additional exits to draw.<br>For example Mode: R, Exit: 9, Others: 12 3 would generate this tulip diagram.<br><img src="R_9_12_3.svg" alt="example tulip diagram"><br>Click "Generate" to display the tulip diagram.<br>Click "Download SVG" to download the generated diagram as an SVG file.';
+  'Help:<br>Mode is one of R, M, J, T (bearing by clock position) or r, m, j, t (bearing by degrees). <br>For uppercase modes, Exit and Other exits must be numbers from 0-12. For lowercase modes, Exit and Other exits must be numbers from 0-360.<br>Other_ExitN are optional additional exits to draw.<br>For example Mode: R, Exit: 9, Others: 12 3 would generate this tulip diagram.<br><img src="R_9_12_3.svg" alt="example tulip diagram"><br>Click "Generate" to display the tulip diagram.<br>Click "Download SVG" to download the generated diagram as an SVG file.';
 function help() {
   var help = document.getElementById("help");
 
@@ -83,8 +83,8 @@ function tulip_gen() {
     output.innerHTML =
       '<span style="color: red;">' +
       errors.join("<br>") +
-      "</span><br>Help: " +
-      helpText;
+      "</span>";
+    help();
     currentSvg = "";
     return;
   }
@@ -140,7 +140,7 @@ function tulip_gen() {
   } else if (mode === "T" || mode === "t") {
     text += '<text x="3" y="18" font-size="7">&#x1F6A6</text>';
   }
-if (mode === "J" || mode === "j" || mode === "T" || mode === "t") {
+  if (mode === "J" || mode === "j" || mode === "T" || mode === "t") {
     text += '<circle style="fill: #000;" cx="10" cy="10" r="0.5"/>';
   }
   text += "</svg>";
@@ -155,14 +155,9 @@ if (mode === "J" || mode === "j" || mode === "T" || mode === "t") {
 
 function download_svg() {
   if (!currentSvg) {
+    help();
     output.innerHTML =
-      '<span style="color: red;">No tulip diagram generated yet.</span><br>Help: ' +
-      helpText;
-    var exampleImg = output.querySelector("img");
-    if (exampleImg) {
-      exampleImg.style.width = "20%";
-      exampleImg.style.height = "auto";
-    }
+      '<span style="color: red;">No tulip diagram generated yet.</span>';
     return;
   }
 
