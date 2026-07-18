@@ -1,9 +1,9 @@
 var currentSvg = "";
-
+var helpText = 'Mode is one of R, M, J, T (bearing by clock position) or r, m, j, t (bearing by degrees). <br>For uppercase modes, Exit and Other exits must be numbers from 0-12. For lowercase modes, Exit and Other exits must be numbers from 0-360.<br>Other_ExitN are optional additional exits to draw.<br>For example Mode: R, Exit: 9, Others: 12 3 would generate this tulip diagram.<br><img src="R_9_12_3.svg" alt="example tulip diagram" width="20%"><br>Click "Generate" to display the tulip diagram.<br>Click "Download SVG" to download the generated diagram as an SVG file.';
 function help() {
   var help = document.getElementById("help");
 
-  help.innerHTML = 'Mode is one of R, M, J, T (for clock bearing) or r, m, j, t (for degree bearing). <br>Exit is a number from 1-12 for clock bearing or 0-360 for degree bearing.<br>Other_ExitN are optional additional exits to draw.<br> for example Mode: R, Exit: 9, Others: 12 3 would generate this tulip diagram.<br><img src="R_9_12_3.svg" alt="example tulip diagram" width="20%"><br>Click "Generate" to display the tulip diagram.<br>Click "Download SVG" to download the generated diagram as an SVG file.';
+  help.innerHTML = helpText;
 }
 
 function tulip_gen() {
@@ -13,13 +13,50 @@ function tulip_gen() {
   var othersValue = form.elements.others.value.trim();
   var output = document.getElementById("output");
 
+  function isNumericToken(value) {
+    return /^\d+(?:\.\d+)?$/.test(value);
+  }
+
+  var errors = [];
+  if (!/^[RrMmJjTt]$/.test(mode)) {
+    errors.push('Mode must be one of R, M, J, T, r, m, j, t.');
+  }
+
+  var minExit = 0;
+  var maxExit = (mode === mode.toUpperCase()) ? 12 : 360;
+  var parsedExit = parseFloat(exitValue);
+  if (exitValue === "" || !isNumericToken(exitValue)) {
+    errors.push('Exit ' + exitValue + ' must be a number.');
+  } else if (parsedExit < minExit || parsedExit > maxExit) {
+    errors.push('Exit ' + exitValue + ' must be between ' + minExit + '-' + maxExit + ' for mode ' + mode + '.');
+  }
+
   var values = [];
   if (exitValue !== "") {
     values.push(exitValue);
   }
 
   if (othersValue !== "") {
-    values = values.concat(othersValue.split(/\s+/).filter(Boolean));
+    var otherValues = othersValue.split(/\s+/).filter(Boolean);
+    for (var j = 0; j < otherValues.length; j++) {
+      var otherValue = otherValues[j];
+      if (!isNumericToken(otherValue)) {
+        errors.push('Other exit "' + otherValue + '" must be a number.');
+        continue;
+      }
+      var parsedOther = parseFloat(otherValue);
+      if (parsedOther < minExit || parsedOther > maxExit) {
+        errors.push('Other exit "' + otherValue + '" must be between ' + minExit + '-' + maxExit + ' for mode ' + mode + '.');
+      } else {
+        values.push(otherValue);
+      }
+    }
+  }
+
+  if (errors.length > 0) {
+    output.innerHTML = '<span style="color: red;">' + errors.join('<br>') + '</span><br>Help: ' + helpText;
+    currentSvg = "";
+    return;
   }
 
   var rotationMultiplier = 1;

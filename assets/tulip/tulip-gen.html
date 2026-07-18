@@ -5,9 +5,10 @@
 <body>
 
 <form id="frm1">
-  Mode: <input type="text" name="mode" value="R"><br>
+  Mode: <input type="text" name="mode" pattern="[RrMmJjTt]" value="R"><br>
   Exit: <input type="text" name="exit" value="9"><br>
   Others: <input type="text" name="others" value="12 3"><br>
+  <input type="reset" value="Reset">
 </form> 
 
 <button onclick="help()">Help</button>
