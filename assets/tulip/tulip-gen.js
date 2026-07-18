@@ -1,14 +1,17 @@
+var currentSvg = "";
+
+function help() {
+  var help = document.getElementById("help");
+
+  help.innerHTML = 'Mode is one of R, M, J, T (for clock bearing) or r, m, j, t (for degree bearing). <br>Exit is a number from 1-12 for clock bearing or 0-360 for degree bearing.<br>Other_ExitN are optional additional exits to draw.<br> for example Mode: R, Exit: 9, Others: 12 3 would generate this tulip diagram.<br><img src="R_9_12_3.svg" alt="example tulip diagram" width="20%"><br>Click "Generate" to display the tulip diagram.<br>Click "Download SVG" to download the generated diagram as an SVG file.';
+}
+
 function tulip_gen() {
   var form = document.getElementById("frm1");
   var mode = form.elements.mode.value.trim();
   var exitValue = form.elements.exit.value.trim();
   var othersValue = form.elements.others.value.trim();
   var output = document.getElementById("output");
-
-  if (mode === "-h" || mode === "h") {
-    output.innerHTML = '<pre>Usage: mode is one of R, M, J, T (clock bearing) or r, m, j, t (degree bearing). Exit is a number and others are optional additional exits.</pre>';
-    return;
-  }
 
   var values = [];
   if (exitValue !== "") {
@@ -61,5 +64,42 @@ function tulip_gen() {
   }
 
   text += '</svg>';
-  output.innerHTML = text;
+  currentSvg = text;
+  output.innerHTML = currentSvg;
+}
+
+function download_svg() {
+  if (!currentSvg) {
+    return;
+  }
+
+  var form = document.getElementById("frm1");
+  var mode = (form.elements.mode.value || "tulip").trim();
+  var exitValue = (form.elements.exit.value || "").trim(); 
+  var othersValue = (form.elements.others.value || "").trim();
+  var values = [];
+  if (othersValue !== "") {
+    values = values.concat(othersValue.split(/\s+/).filter(Boolean));
+  }
+  var fileName = mode;
+
+  if (exitValue) {
+    fileName += "_" + exitValue;
+  }
+
+  for (var i = 0; i < values.length; i++) {
+    fileName += "_" + values[i];
+  }
+
+  fileName += ".svg";
+
+  var blob = new Blob([currentSvg], { type: "image/svg+xml;charset=utf-8" });
+  var url = URL.createObjectURL(blob);
+  var link = document.createElement("a");
+  link.href = url;
+  link.download = fileName;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
 }

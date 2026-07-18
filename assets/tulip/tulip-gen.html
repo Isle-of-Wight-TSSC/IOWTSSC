@@ -5,15 +5,16 @@
 <body>
 
 <form id="frm1">
-  mode: <input type="text" name="mode" value="R"><br>
-  exit: <input type="text" name="exit" value="9"><br>
-  others: <input type="text" name="others" value="12 3"><br>
+  Mode: <input type="text" name="mode" value="R"><br>
+  Exit: <input type="text" name="exit" value="9"><br>
+  Others: <input type="text" name="others" value="12 3"><br>
 </form> 
 
-<p>Click "Generate" to display the tulip diagram.</p>
-
+<button onclick="help()">Help</button>
 <button onclick="tulip_gen()">Generate</button>
+<button onclick="download_svg()">Download SVG</button>
 
+<p id="help"></p>
 <p id="output" style="width: 20%; height: 20%;"></p>
 
 
