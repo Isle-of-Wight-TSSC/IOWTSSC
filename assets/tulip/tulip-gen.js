@@ -107,6 +107,8 @@ function tulip_gen() {
 
 function download_svg() {
   if (!currentSvg) {
+        output.innerHTML = 'No tulip diagram generated yet.<br>Help: ' + helpText;
+
     return;
   }
 
