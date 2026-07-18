@@ -1,6 +1,14 @@
 var currentSvg = "";
 var helpText =
-  'Help:<br>Mode is one of R, M, J, T (bearing by clock position) or r, m, j, t (bearing by degrees). <br>For uppercase modes, Exit and Other exits must be numbers from 0-12. For lowercase modes, Exit and Other exits must be numbers from 0-360.<br>Other_ExitN are optional additional exits to draw.<br>For example Mode: R, Exit: 9, Others: 12 3 would generate this tulip diagram.<br><img src="R_9_12_3.svg" alt="example tulip diagram"><br>Click "Generate" to display the tulip diagram.<br>Click "Download SVG" to download the generated diagram as an SVG file.';
+  'Help:<br>Mode is one of R, M, J, T, r, m, j, t.<br>'+
+  'R,r = Roundabout, M,m = Mini-roundabout, J,j = Junction, T,t = Traffic.<br>'+
+  'For uppercase modes, Exit and Other exits must be numbers from 0-12.(bearing by clock position)<br>'+
+  'For lowercase modes, Exit and Other exits must be numbers from 0-360.(bearing by degrees)<br>'+
+  'Other_ExitN are optional additional exits to draw.<br>'+
+  'For example Mode: R, Exit: 9, Others: 12 3 would generate this tulip diagram.<br>'+
+  '<img src="R_9_12_3.svg" alt="example tulip diagram"><br>'+
+  'Click "Generate" to display the tulip diagram.<br>'+
+  'Click "Download SVG" to download the generated diagram as an SVG file.';
 function help() {
   var help = document.getElementById("help");
 
