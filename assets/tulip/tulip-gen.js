@@ -1,7 +1,7 @@
 var currentSvg = "";
 var helpText =
   'Help:<br>Mode is one of R, M, J, T, r, m, j, t.<br>'+
-  'R,r = Roundabout, M,m = Mini-roundabout, J,j = Junction, T,t = Traffic.<br>'+
+  'R,r = Roundabout, M,m = Mini-roundabout, J,j = Junction, T,t = Traffic lights.<br>'+
   'For uppercase modes, Exit and Other exits must be numbers from 0-12.(bearing by clock position)<br>'+
   'For lowercase modes, Exit and Other exits must be numbers from 0-360.(bearing by degrees)<br>'+
   'Other_ExitN are optional additional exits to draw.<br>'+
