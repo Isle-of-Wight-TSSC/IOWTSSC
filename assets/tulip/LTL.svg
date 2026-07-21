@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" >
-  <path style="fill: none; stroke: rgb(0, 0, 0);" d="M 10 4 L 10 17 M 2 4 L 18 4  M 4 2 L 2 4 L 4 6 " />
-  <circle style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 1;" cx="10" cy="18" r="1" />
+  <path style="fill: none; stroke: black;" d="M 10 4 L 10 17 M 2 4 L 18 4  M 4 2 L 2 4 L 4 6 " />
+  <circle style="fill: none; stroke: black; stroke-width: 1;" cx="10" cy="18" r="1" />
 <text x="2" y="18" font-size="7">🚦</text>
 </svg>

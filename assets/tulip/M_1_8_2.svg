@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 <g id="arm"><line style="stroke: black; fill: none;" x1="10" y1="10" x2="10" y2="18"/></g>
-<circle style="stroke: rgb(0, 0, 0); stroke-width: 1; fill: white;" cx="10" cy="18" r="1"/>
-<path style="fill: none; stroke: rgb(0, 0, 0);" d="M 8 4 L 10 2 L 12 4" transform="rotate(30 10 10)"></path>
+<circle style="stroke: black; stroke-width: 1; fill: white;" cx="10" cy="18" r="1"/>
+<path style="fill: none; stroke: black;" d="M 8 4 L 10 2 L 12 4" transform="rotate(30 10 10)"></path>
 <use href="#arm" transform="rotate(210 10 10)" />
 <use href="#arm" transform="rotate(420 10 10)" />
 <use href="#arm" transform="rotate(240 10 10)" />
-<circle style="stroke: rgb(0, 0, 0); stroke-width: 1; fill: white;" cx="10" cy="10" r="1"/></svg>
+<circle style="stroke: black; stroke-width: 1; fill: white;" cx="10" cy="10" r="1"/></svg>
