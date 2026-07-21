@@ -8,9 +8,8 @@ var helpText =
   'For example Mode: R, Exit: 9, Others: 12 3 would generate this tulip diagram.<br>'+
   '<img src="R_9_12_3.svg" alt="example tulip diagram"><br>'+
   'Click "Generate" to display the tulip diagram.<br>'+
-  'Click "Download SVG" to download the generated diagram as an SVG file.<br>'+
-  'For more complex junctions use <a target="_blank" href="https://www.danbp.org/tulipcomposer/tulipcomposer.html">TulipComposer2</a> or use <a target="_blank" href="https://boxy-svg.com/app">boxy</a>and this template https://raw.githubusercontent.com/Isle-of-Wight-TSSC/IOWTSSC/refs/heads/main/assets/tulip/template.svg<br>';
-function help() {
+  'Click "Download SVG" to download the generated diagram as an SVG file.<br>';
+  function help() {
   var help = document.getElementById("help");
 
   help.innerHTML = helpText;
