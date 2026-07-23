@@ -21,6 +21,10 @@ print_background: false
 [Threads](https://www.threads.net/@isle_of_wight_tssc): isle_of_wight_tssc
 [mastodon](https://mastodon.iow.social/@tssciow): @tssciow@mastodon.iow.social
 
+## Tools
+
+[Tulip generator](/assets/tulip/tulip-gen.html)
+
 ## Recommended services
 
 Car service [Wight Classics](https://wightclassics.co.uk)

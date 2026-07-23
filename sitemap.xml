@@ -14,7 +14,7 @@
 	</url>
 	<url>
 		<loc>https://iow.triumphsportsix.club/contactus</loc>
-		<lastmod>2026-07-01-T08:20:00+01:00</lastmod>
+		<lastmod>2026-07-20-T08:20:00+01:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
 	</url>
@@ -37,14 +37,27 @@
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>https://iow.triumphsportsix.club/dev/26cw/programme/programme</loc>
+		<loc>https://iow.triumphsportsix.club/dev/cw/programme/programme</loc>
 		<lastmod>2026-04-23-T19:35:01+01:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>https://iow.triumphsportsix.club/dev/26cw/programme/directions</loc>
+		<loc>https://iow.triumphsportsix.club/dev/cw/programme/directions</loc>
 		<lastmod>2026-04-23-T19:34:46+01:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://iow.triumphsportsix.club/assets/tulip/tulip-gen</loc>
+		<lastmod>2026-07-20-T19:34:46+01:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1</priority>
+	</url>
+	</url>
+	<url>
+		<loc>https://iow.triumphsportsix.club/assets/tulip/premade</loc>
+		<lastmod>2026-07-20-T19:34:46+01:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
 	</url>

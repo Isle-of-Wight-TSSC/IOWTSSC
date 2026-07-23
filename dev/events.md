@@ -15,10 +15,6 @@ print_background: false
 
 ![menubar](/dev/menubar.md)
 
-## July Run
-
-On Saturday the 18^th^ we will be leaving [Coppins bridge upper car park](https://w3w.co/alley.stared.upsetting) at 11:30am to get to [Goddards](https://goddardsbrewery.com/events/goddards-motor-meets-summer-series-2026/?occurrence=2026-07-18&time=1784376000) for there motor meets for 12pm
-
 ## August Run
 
 On Friday the 28^th^ we will be leaving [Brading viewpoint](https://w3w.co/outlast.choppers.resurgent) at 4:30pm and going via newchurch to get to 5pm [harvey brown sunset session](https://www.harveybrowns.co.uk/event/sunset-social-2026/). We will be getting there early to secure a table, if you plan to join us later that is fine, but please let us know so we can grab you a seat.
