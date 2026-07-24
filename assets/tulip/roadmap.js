@@ -40,10 +40,6 @@ function RemoveInstruction(){
 
 function BuildRoadmap(){
 
-  var form = document.getElementById("frm1");
-  var input = form.elements.input.value.trim();
-  var output = document.getElementById("output");
-  var inputs = input.split(/,/).filter(Boolean);
   var TotalOdometer = 0;
   var RoadmapTable = '<table><tr><th>ID</th><th>Cum</th><th>Int</th><th>Tulip</th><th>Description</th></tr>';
   for (var i = 0; i < RouteList.length; i++) {
@@ -61,10 +57,12 @@ function BuildRoadmap(){
 }
 
 function AddWaypoint(){
-    var form = document.getElementById("frm1");
-  var input = form.elements.input.value.trim();
+  var form = document.getElementById("frm1");
+  var interval = form.elements.interval.value.trim();
+  var symbol = form.elements.symbol.value.trim();
+  var description = form.elements.description.value.trim();
   var InstructionID = form.elements.InstructionID.value.trim();
-  var inputs = input.split(/,/).filter(Boolean);
+  var inputs = [interval, symbol, description];
   if (InstructionID !== 0) {
   RouteList.splice(parseInt(InstructionID), 0, inputs);
   } else {
@@ -209,10 +207,6 @@ function tulip_gen(junction) {
 
 function ExportRoadmap(){
 
-  var form = document.getElementById("frm1");
-  var input = form.elements.input.value.trim();
-  var output = document.getElementById("output");
-  var inputs = input.split(/,/).filter(Boolean);
   var TotalOdometer = 0;
   var fileName = "roadmap.html";
   var RoadmapTable = '<html><style>table, th, tr, td {  border: 1px solid black;  border-collapse: collapse;}tr, td {  width:20%;  height:20%;  text-align: center;   vertical-align: middle;}</style><body><table><tr><th>Cum</th><th>Int</th><th>Tulip</th><th>Description</th></tr>';
@@ -237,37 +231,4 @@ function ExportRoadmap(){
   document.body.removeChild(link);
   URL.revokeObjectURL(url);
 
-}
-
-
-function download_Roadmap() {
-  var form = document.getElementById("frm1");
-  var mode = (form.elements.mode.value || "tulip").trim();
-  var exitValue = (form.elements.exit.value || "").trim();
-  var othersValue = (form.elements.others.value || "").trim();
-  var values = [];
-  if (othersValue !== "") {
-    values = values.concat(othersValue.split(/\s+/).filter(Boolean));
-  }
-  var fileName = mode;
-
-  if (exitValue) {
-    fileName += "_" + exitValue;
-  }
-
-  for (var i = 0; i < values.length; i++) {
-    fileName += "_" + values[i];
-  }
-
-  fileName += ".svg";
-
-  var blob = new Blob([currentSvg], { type: "image/svg+xml;charset=utf-8" });
-  var url = URL.createObjectURL(blob);
-  var link = document.createElement("a");
-  link.href = url;
-  link.download = fileName;
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-  URL.revokeObjectURL(url);
 }
