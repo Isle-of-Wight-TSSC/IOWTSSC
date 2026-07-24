@@ -43,6 +43,7 @@ function BuildRoadmap(){
   var TotalOdometer = 0;
   var RoadmapTable = '<table><tr><th>ID</th><th>Cum</th><th>Int</th><th>Tulip</th><th>Description</th></tr>';
   for (var i = 0; i < RouteList.length; i++) {
+    console.log(RouteList[i][1]);
     RoadmapTable += '<tr>';
       TotalOdometer = normalizeNumber(TotalOdometer + parseFloat(RouteList[i][0]));
       RoadmapTable += '<td>' + i + '</td>';
@@ -59,23 +60,25 @@ function BuildRoadmap(){
 function AddWaypoint(){
   var form = document.getElementById("frm1");
   var interval = form.elements.interval.value.trim();
-  var symbol = form.elements.symbol.value.trim();
+  var mode = form.elements.mode.value.trim();
+  var exit = form.elements.exit.value.trim();
+  var others = form.elements.others.value.trim();
   var description = form.elements.description.value.trim();
   var InstructionID = form.elements.InstructionID.value.trim();
-  var inputs = [interval, symbol, description];
-  if (InstructionID !== 0) {
+  var inputs = [interval, [mode , exit , others], description];
+  if (InstructionID === 0) {
   RouteList.splice(parseInt(InstructionID), 0, inputs);
   } else {
   RouteList.push(inputs);
 }}
 
 
-function tulip_gen(junction) {
-  var inputs = junction.split(/\s+/).filter(Boolean);
-  var mode = inputs[0];
-  var exitValue = inputs[1];
-  var othersValue = inputs[2];
+function tulip_gen(input) {
   var output
+
+  var mode = input[0];
+  var exitValue = input[1];
+  var othersValue = input[2];
 
   function isNumericToken(value) {
     return /^\d+(?:\.\d+)?$/.test(value);

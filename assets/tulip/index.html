@@ -27,7 +27,9 @@ tr, td {
 </form> 
 <form id="frm1">
   Interval: <input type="text" name="interval" value="0.4"><br>
-  Symbol: <input type="text" name="symbol" value="M 9 12 3"><br>
+  Mode: <input type="text" name="mode" pattern="[RrMmJjTt]" value="R"><br>
+  Exit: <input type="text" name="exit" value="9"><br>
+  Other Exits: <input type="text" name="others" value="12 3"><br>
   Description: <input type="text" name="description" value="turn left at the mini roundabout"><br>
   Instruction ID: <input type="integer" name="InstructionID" value="0"><br>
   <input type="reset" value="Reset">
