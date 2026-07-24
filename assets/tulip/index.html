@@ -1,0 +1,28 @@
+<style>
+table, th, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr, td {
+  width:20%;
+  height:20%;
+  text-align: center; 
+  vertical-align: middle;
+}
+</style>
+<script src="roadmap.js">
+</script>
+<form id="frm2">
+  Input: <input type="integer" name="input" value="2"><br>
+  <input type="reset" value="Reset">
+</form> 
+<form id="frm1">
+  Input: <input type="text" name="input" value="0.4,M 9 12 3, turn left at the mini roundabout"><br>
+  <input type="reset" value="Reset">
+</form> 
+<button onclick="AddWaypoint()">add waypoint</button>
+<button onclick="RemoveInstruction()">remove waypoint</button>
+<button onclick="BuildRoadmap()">Build Roadmap</button>
+
+<p id="help"></p>
+<p id="output"></p>
