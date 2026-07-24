@@ -10,6 +10,14 @@ var helpText =
   'Click "Generate" to display the tulip diagram.<br>'+
   'Click "Download SVG" to download the generated diagram as an SVG file.<br>';
 errortext = '';
+
+function normalizeNumber(value) {
+  return Number(Number(value).toFixed(10));
+}
+
+function formatNumber(value) {
+  return normalizeNumber(value).toString();
+}
   function help() {
   var help = document.getElementById("help");
 
@@ -40,10 +48,10 @@ function BuildRoadmap(){
   var RoadmapTable = '<table><tr><th>ID</th><th>Cum</th><th>Int</th><th>Tulip</th><th>Description</th></tr>';
   for (var i = 0; i < RouteList.length; i++) {
     RoadmapTable += '<tr>';
-      TotalOdometer += parseFloat(RouteList[i][0]);
+      TotalOdometer = normalizeNumber(TotalOdometer + parseFloat(RouteList[i][0]));
       RoadmapTable += '<td>' + i + '</td>';
-      RoadmapTable += '<td>' + RouteList[i][0] + '</td>';
-      RoadmapTable += '<td>' + TotalOdometer + '</td>';
+      RoadmapTable += '<td>' + formatNumber(TotalOdometer) + '</td>';
+      RoadmapTable += '<td>' + formatNumber(RouteList[i][0]) + '</td>';
       RoadmapTable += '<td>' + tulip_gen(RouteList[i][1]) + '</td>';
       RoadmapTable += '<td>' + RouteList[i][2] + '</td>';
     RoadmapTable += '</tr>';
