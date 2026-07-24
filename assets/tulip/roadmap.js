@@ -205,3 +205,69 @@ function tulip_gen(junction) {
   output = currentSvg;
   return output;
 }
+
+
+function ExportRoadmap(){
+
+  var form = document.getElementById("frm1");
+  var input = form.elements.input.value.trim();
+  var output = document.getElementById("output");
+  var inputs = input.split(/,/).filter(Boolean);
+  var TotalOdometer = 0;
+  var fileName = "roadmap.html";
+  var RoadmapTable = '<html><style>table, th, tr, td {  border: 1px solid black;  border-collapse: collapse;}tr, td {  width:20%;  height:20%;  text-align: center;   vertical-align: middle;}</style><body><table><tr><th>Cum</th><th>Int</th><th>Tulip</th><th>Description</th></tr>';
+  for (var i = 0; i < RouteList.length; i++) {
+    RoadmapTable += '<tr>';
+      TotalOdometer = normalizeNumber(TotalOdometer + parseFloat(RouteList[i][0]));
+      RoadmapTable += '<td>' + formatNumber(TotalOdometer) + '</td>';
+      RoadmapTable += '<td>' + formatNumber(RouteList[i][0]) + '</td>';
+      RoadmapTable += '<td>' + tulip_gen(RouteList[i][1]) + '</td>';
+      RoadmapTable += '<td>' + RouteList[i][2] + '</td>';
+    RoadmapTable += '</tr><body></html>';
+  }
+  output.innerHTML = RoadmapTable
+
+    var blob = new Blob([RoadmapTable], { type: "html;charset=utf-8" });
+  var url = URL.createObjectURL(blob);
+  var link = document.createElement("a");
+  link.href = url;
+  link.download = fileName;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+
+}
+
+
+function download_Roadmap() {
+  var form = document.getElementById("frm1");
+  var mode = (form.elements.mode.value || "tulip").trim();
+  var exitValue = (form.elements.exit.value || "").trim();
+  var othersValue = (form.elements.others.value || "").trim();
+  var values = [];
+  if (othersValue !== "") {
+    values = values.concat(othersValue.split(/\s+/).filter(Boolean));
+  }
+  var fileName = mode;
+
+  if (exitValue) {
+    fileName += "_" + exitValue;
+  }
+
+  for (var i = 0; i < values.length; i++) {
+    fileName += "_" + values[i];
+  }
+
+  fileName += ".svg";
+
+  var blob = new Blob([currentSvg], { type: "image/svg+xml;charset=utf-8" });
+  var url = URL.createObjectURL(blob);
+  var link = document.createElement("a");
+  link.href = url;
+  link.download = fileName;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+}
