@@ -63,9 +63,13 @@ function BuildRoadmap(){
 function AddWaypoint(){
     var form = document.getElementById("frm1");
   var input = form.elements.input.value.trim();
+  var InstructionID = form.elements.InstructionID.value.trim();
   var inputs = input.split(/,/).filter(Boolean);
+  if (InstructionID !== 0) {
+  RouteList.splice(parseInt(InstructionID), 0, inputs);
+  } else {
   RouteList.push(inputs);
-}
+}}
 
 
 function tulip_gen(junction) {
