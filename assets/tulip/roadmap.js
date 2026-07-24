@@ -1,14 +1,17 @@
 var RouteList = []
 var helpText =
-  'Help:<br>Mode is one of R, M, J, T, r, m, j, t.<br>'+
+  'Help:<br>Interval is the distance since the last waypoint.<br>'+
+  'Mode: is one of R, M, J, T, r, m, j, t.<br>'+
   'R,r = Roundabout, M,m = Mini-roundabout, J,j = Junction, T,t = Traffic lights.<br>'+
+  'Exit: The primary exit to draw.<br>'+
   'For uppercase modes, Exit and Other exits must be numbers from 0-12.(bearing by clock position)<br>'+
   'For lowercase modes, Exit and Other exits must be numbers from 0-360.(bearing by degrees)<br>'+
-  'Other_ExitN are optional additional exits to draw.<br>'+
+  'Other_ExitN: are optional additional exits to draw.<br>'+
+  'Description: A brief description of the the junction and where to go.(use &lt;strong&gt;left&lt;/strong&gt; to get bold text)<br>'+
   'For example Mode: R, Exit: 9, Others: 12 3 would generate this tulip diagram.<br>'+
   '<img src="R_9_12_3.svg" alt="example tulip diagram"><br>'+
-  'Click "Generate" to display the tulip diagram.<br>'+
-  'Click "Download SVG" to download the generated diagram as an SVG file.<br>';
+  'Click "Build Roadmap" to display the roadmap.<br>'+
+  'Click "Export Roadmap" to download the generated roadmap as an html file.<br>';
 errortext = '';
 
 function normalizeNumber(value) {
