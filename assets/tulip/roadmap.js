@@ -69,10 +69,10 @@ function AddWaypoint(){
   var description = form.elements.description.value.trim();
   var InstructionID = form.elements.InstructionID.value.trim();
   var inputs = [interval, [mode , exit , others], description];
-  if (InstructionID === 0) {
-  RouteList.splice(parseInt(InstructionID), 0, inputs);
-  } else {
+  if (InstructionID === "") {
   RouteList.push(inputs);
+  } else {
+  RouteList.splice(parseInt(InstructionID), 0, inputs);
 }}
 
 
