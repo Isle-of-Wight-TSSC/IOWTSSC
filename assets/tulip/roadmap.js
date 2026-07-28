@@ -7,7 +7,9 @@ var helpText =
   'For uppercase modes, Exit and Other exits must be numbers from 0-12.(bearing by clock position)<br>'+
   'For lowercase modes, Exit and Other exits must be numbers from 0-360.(bearing by degrees)<br>'+
   'Other_ExitN: are optional additional exits to draw.<br>'+
-  'Description: A brief description of the the junction and where to go.(use &lt;strong&gt;left&lt;/strong&gt; to get bold text)<br>'+
+  'Description: A brief description of the the junction and where to go.<br>'+
+  '(use &lt;strong&gt;left&lt;/strong&gt; to get bold text)<br>'+
+  '(use &lt;sup&gt;st&lt;/sup&gt; to get superscript text)<br>'+
   'For example Mode: R, Exit: 9, Others: 12 3 would generate this tulip diagram.<br>'+
   '<img src="R_9_12_3.svg" alt="example tulip diagram"><br>'+
   'Click "Build Roadmap" to display the roadmap.<br>'+
@@ -36,14 +38,20 @@ function RemoveInstruction(){
 
   var form = document.getElementById("frm2");
   var input = form.elements.input.value.trim();
-  if (RouteList.length === 0 ) return undefined;
+  if (RouteList.length === 0 || input === "") return undefined;
   return RouteList.splice(input,1)[0];
 
 }
 
-function BuildRoadmap(){
+function PreviewRoadmap(){
 
   var TotalOdometer = 0;
+  if (RouteList.length === 0) {
+    help();
+    RoadmapTable = "";
+    output.innerHTML = RoadmapTable
+    return;
+  }
   var RoadmapTable = '<table><tr><th>ID</th><th>Cum</th><th>Int</th><th>Tulip</th><th>Description</th></tr>';
   for (var i = 0; i < RouteList.length; i++) {
     console.log(RouteList[i][1]);

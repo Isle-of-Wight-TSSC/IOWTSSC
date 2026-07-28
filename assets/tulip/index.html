@@ -12,7 +12,6 @@ table, th, tr, td {
   border-collapse: collapse;
 }
 tr, td {
-  width:20%;
   height:20%;
   text-align: center; 
   vertical-align: middle;
@@ -25,21 +24,20 @@ tr, td {
 This tool generates a simple roadmap for a convoy route.<br>
 <button onclick="help()">Help</button>
 <form id="frm2">
-  instruction ID to remove: <input type="integer" name="input" value="2"><br>
-  <input type="reset" value="Reset">
+  instruction ID to remove: <input type="integer" name="input" value=""><br>
 </form> 
 <form id="frm1">
   Interval: <input type="text" name="interval" value="0.4"><br>
   Mode: <input type="text" name="mode" pattern="[RrMmJjTt]" value="R"><br>
   Exit: <input type="text" name="exit" value="9"><br>
   Other Exits: <input type="text" name="others" value="12 3"><br>
-  Description: <input type="text" name="description" value="turn left at the mini roundabout"><br>
+  Description: <input type="text" name="description" value="<strong>1<sup>st</sup></strong> exit at the mini roundabout"><br>
   Instruction ID: <input type="integer" name="InstructionID" value="">optional<br>
   <input type="reset" value="Reset">
 </form> 
 <button onclick="AddWaypoint()">add waypoint</button>
 <button onclick="RemoveInstruction()">remove waypoint</button>
-<button onclick="BuildRoadmap()">Build Roadmap</button>
+<button onclick="PreviewRoadmap()">Preview Roadmap</button>
 <button onclick="ExportRoadmap()">Export Roadmap</button>
 
 <p id="help"></p>
