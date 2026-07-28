@@ -1,16 +1,16 @@
 var RouteList = []
 var helpText =
   'Help:<br>Interval is the distance since the last waypoint.<br>'+
-  'Mode: is one of R, M, J, T, r, m, j, t.<br>'+
+  'Type: is one of R, M, J, T, r, m, j, t.<br>'+
   'R,r = Roundabout, M,m = Mini-roundabout, J,j = Junction, T,t = Traffic lights.<br>'+
   'Exit: The primary exit to draw.<br>'+
-  'For uppercase modes, Exit and Other exits must be numbers from 0-12.(bearing by clock position)<br>'+
-  'For lowercase modes, Exit and Other exits must be numbers from 0-360.(bearing by degrees)<br>'+
+  'For uppercase Types, Exit and Other exits must be numbers from 0-12.(bearing by clock position)<br>'+
+  'For lowercase Types, Exit and Other exits must be numbers from 0-360.(bearing by degrees)<br>'+
   'Other_ExitN: are optional additional exits to draw.<br>'+
   'Description: A brief description of the the junction and where to go.<br>'+
   '(use &lt;strong&gt;left&lt;/strong&gt; to get bold text)<br>'+
   '(use &lt;sup&gt;st&lt;/sup&gt; to get superscript text)<br>'+
-  'For example Mode: R, Exit: 9, Others: 12 3 would generate this tulip diagram.<br>'+
+  'For example Type: R, Exit: 9, Others: 12 3 would generate this tulip diagram.<br>'+
   '<img src="R_9_12_3.svg" alt="example tulip diagram"><br>'+
   'Click "Build Roadmap" to display the roadmap.<br>'+
   'Click "Export Roadmap" to download the generated roadmap as an html file.<br>';
@@ -36,10 +36,10 @@ function formatNumber(value) {
 
 function RemoveInstruction(){
 
-  var form = document.getElementById("frm2");
-  var input = form.elements.input.value.trim();
-  if (RouteList.length === 0 || input === "") return undefined;
-  return RouteList.splice(input,1)[0];
+  var form = document.getElementById("frm1");
+  var InstructionID = form.elements.InstructionID.value.trim();
+  if (RouteList.length === 0 || InstructionID === "") return undefined;
+  return RouteList.splice(InstructionID,1)[0];
 
 }
 
@@ -71,12 +71,12 @@ function PreviewRoadmap(){
 function AddWaypoint(){
   var form = document.getElementById("frm1");
   var interval = form.elements.interval.value.trim();
-  var mode = form.elements.mode.value.trim();
+  var Type = form.elements.Type.value.trim();
   var exit = form.elements.exit.value.trim();
   var others = form.elements.others.value.trim();
   var description = form.elements.description.value.trim();
   var InstructionID = form.elements.InstructionID.value.trim();
-  var inputs = [interval, [mode , exit , others], description];
+  var inputs = [interval, [Type , exit , others], description];
   if (InstructionID === "") {
   RouteList.push(inputs);
   } else {
@@ -87,7 +87,7 @@ function AddWaypoint(){
 function tulip_gen(input) {
   var output
 
-  var mode = input[0];
+  var Type = input[0];
   var exitValue = input[1];
   var othersValue = input[2];
 
@@ -96,12 +96,12 @@ function tulip_gen(input) {
   }
 
   var errors = [];
-  if (!/^[RrMmJjTt]$/.test(mode)) {
-    errors.push("Mode must be one of R, M, J, T, r, m, j, t.");
+  if (!/^[RrMmJjTt]$/.test(Type)) {
+    errors.push("Type must be one of R, M, J, T, r, m, j, t.");
   }
 
   var minExit = 0;
-  var maxExit = mode === mode.toUpperCase() ? 12 : 360;
+  var maxExit = Type === Type.toUpperCase() ? 12 : 360;
   var parsedExit = parseFloat(exitValue);
   if (exitValue === "" || !isNumericToken(exitValue)) {
     errors.push("Exit " + exitValue + " must be a number.");
@@ -113,8 +113,8 @@ function tulip_gen(input) {
         minExit +
         "-" +
         maxExit +
-        " for mode " +
-        mode +
+        " for Type " +
+        Type +
         ".",
     );
   }
@@ -141,8 +141,8 @@ function tulip_gen(input) {
             minExit +
             "-" +
             maxExit +
-            " for mode " +
-            mode +
+            " for Type " +
+            Type +
             ".",
         );
       } else {
@@ -161,7 +161,7 @@ function tulip_gen(input) {
   var rotationMultiplier = 1;
   var rotationOffset = 180;
 
-  if (mode === "R" || mode === "M" || mode === "J" || mode === "T") {
+  if (Type === "R" || Type === "M" || Type === "J" || Type === "T") {
     rotationMultiplier = 30;
     rotationOffset = 6;
   }
@@ -200,16 +200,16 @@ function tulip_gen(input) {
       ' 10 10)" />';
   }
 
-  if (mode === "R" || mode === "r") {
+  if (Type === "R" || Type === "r") {
     text +=
       '<circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="10" r="3"/><path style="fill: none; stroke: #FFF;" d="M 10 10 L 13 13"/>';
-  } else if (mode === "M" || mode === "m") {
+  } else if (Type === "M" || Type === "m") {
     text +=
       '<circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="10" r="1"/>';
-  } else if (mode === "T" || mode === "t") {
+  } else if (Type === "T" || Type === "t") {
     text += '<text x="3" y="18" font-size="7">&#x1F6A6</text>';
   }
-  if (mode === "J" || mode === "j" || mode === "T" || mode === "t") {
+  if (Type === "J" || Type === "j" || Type === "T" || Type === "t") {
     text += '<circle style="fill: #000;" cx="10" cy="10" r="0.5"/>';
   }
   text += "</svg>";
