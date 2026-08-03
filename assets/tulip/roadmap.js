@@ -42,7 +42,7 @@ function RemoveInstruction(){
   return RouteList.splice(InstructionID,1)[0];
 }
 
-function AddWaypoint(){
+function AddWayPoint(){
   var form = document.getElementById("frm1");
   var interval = form.elements.interval.value.trim();
   var JunctionType = form.elements.JunctionType.value.trim();
@@ -72,7 +72,7 @@ function WaypointLineSplit(line) {
   return [interval, [JunctionType, exit, others], description];
 }
 
-function addWaypoints() {
+function AddWayPoints() {
   var form = document.getElementById("frm1");
   if (!form || !form.elements.waypointText) {
     return undefined;
