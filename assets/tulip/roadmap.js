@@ -74,19 +74,12 @@ function WaypointLineSplit(line) {
 
 function AddWayPoints() {
   var form = document.getElementById("frm1");
-  if (!form || !form.elements.waypointText) {
-    return undefined;
-  }
-
   var MultiLineText = form.elements.waypointText.value || "";
   var lines = MultiLineText.split(/\r?\n/);
 
   for (var i = 0; i < lines.length; i++) {
-    var parsed = WaypointLineSplit(lines[i]);
-    if (!parsed) continue;
-      RouteList.push(parsed);
+    RouteList.push(WaypointLineSplit(lines[i]));
   }
-  return RouteList;
 }
 
 function tulip_gen(input) {
