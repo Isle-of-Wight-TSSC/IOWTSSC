@@ -207,12 +207,12 @@ function PreviewRoadmap(){
   for (var i = 0; i < RouteList.length; i++) {
     console.log(RouteList[i][1]);
     RoadmapTable += '<tr>';
-      TotalOdometer = normalizeNumber(TotalOdometer + parseFloat(RouteList[i][0]));
-      RoadmapTable += '<td>' + i + '</td>';
-      RoadmapTable += '<td>' + formatNumber(TotalOdometer) + '</td>';
-      RoadmapTable += '<td>' + formatNumber(RouteList[i][0]) + '</td>';
-      RoadmapTable += '<td>' + tulip_gen(RouteList[i][1]) + '</td>';
-      RoadmapTable += '<td>' + RouteList[i][2] + '</td>';
+    TotalOdometer = normalizeNumber(TotalOdometer + parseFloat(RouteList[i][0]));
+    RoadmapTable += '<td>' + i + '</td>';
+    RoadmapTable += '<td>' + formatNumber(TotalOdometer) + '</td>';
+    RoadmapTable += '<td>' + formatNumber(RouteList[i][0]) + '</td>';
+    RoadmapTable += '<td>' + tulip_gen(RouteList[i][1]) + '</td>';
+    RoadmapTable += '<td>' + RouteList[i][2] + '</td>';
     RoadmapTable += '</tr>';
   }
   output.innerHTML = RoadmapTable
@@ -225,14 +225,15 @@ function ExportRoadmap(){
   var fileName = "roadmap.html";
   var RoadmapTable = '<html><style>table, th, tr, td {  border: 1px solid black;  border-collapse: collapse;}tr, td {  width:20%;  height:20%;  text-align: center;   vertical-align: middle;}</style><body><table><tr><th>Cum</th><th>Int</th><th>Tulip</th><th>Description</th></tr>';
   for (var i = 0; i < RouteList.length; i++) {
-    RoadmapTable += '<tr>';
-      TotalOdometer = normalizeNumber(TotalOdometer + parseFloat(RouteList[i][0]));
-      RoadmapTable += '<td>' + formatNumber(TotalOdometer) + '</td>';
-      RoadmapTable += '<td>' + formatNumber(RouteList[i][0]) + '</td>';
-      RoadmapTable += '<td>' + tulip_gen(RouteList[i][1]) + '</td>';
-      RoadmapTable += '<td>' + RouteList[i][2] + '</td>';
-    RoadmapTable += '</tr><body></html>';
+    RoadmapTable += '<tr id="' + i + '">';
+    TotalOdometer = normalizeNumber(TotalOdometer + parseFloat(RouteList[i][0]));
+    RoadmapTable += '<td>' + formatNumber(TotalOdometer) + '</td>';
+    RoadmapTable += '<td>' + formatNumber(RouteList[i][0]) + '</td>';
+    RoadmapTable += '<td>' + tulip_gen(RouteList[i][1]) + '</td>';
+    RoadmapTable += '<td>' + RouteList[i][2] + '</td>';
+    RoadmapTable += '</tr>';
   }
+  RoadmapTable += '<body></html>';
   output.innerHTML = RoadmapTable
 
     var blob = new Blob([RoadmapTable], { Type: "html;charset=utf-8" });
