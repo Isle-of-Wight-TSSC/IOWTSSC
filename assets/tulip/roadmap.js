@@ -36,12 +36,10 @@ function help() {
 }
 
 function RemoveInstruction(){
-
-  var form = document.getElementById("frm2");
-  var input = form.elements.input.value.trim();
-  if (RouteList.length === 0 || input === "") return undefined;
-  return RouteList.splice(input,1)[0];
-
+  var form = document.getElementById("frm1");
+  var InstructionID = form.elements.InstructionID.value.trim();
+  if (InstructionID === "") return undefined;
+  return RouteList.splice(InstructionID,1)[0];
 }
 
 function AddWaypoint(){
