@@ -58,6 +58,37 @@ function AddWaypoint(){
   }
 }
 
+function WaypointLineSplit(line) {
+
+  var segments = line.split(/[|,]/);
+  var interval = segments[0];
+  var Junction = segments[1];
+  var description = segments[2];
+  var JunctionParts = Junction.split(/[\s,]+/).filter(Boolean);
+  var JunctionType = JunctionParts[0] || "";
+  var exit = JunctionParts[1] || "";
+  var others = JunctionParts.slice(2).join(" ") || "";
+
+  return [interval, [JunctionType, exit, others], description];
+}
+
+function addWaypoints() {
+  var form = document.getElementById("frm1");
+  if (!form || !form.elements.waypointText) {
+    return undefined;
+  }
+
+  var MultiLineText = form.elements.waypointText.value || "";
+  var lines = MultiLineText.split(/\r?\n/);
+
+  for (var i = 0; i < lines.length; i++) {
+    var parsed = WaypointLineSplit(lines[i]);
+    if (!parsed) continue;
+      RouteList.push(parsed);
+  }
+  return RouteList;
+}
+
 function tulip_gen(input) {
   var output
 
