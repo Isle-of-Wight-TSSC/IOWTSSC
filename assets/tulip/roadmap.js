@@ -12,7 +12,12 @@ var helpText =
   '(use &lt;sup&gt;st&lt;/sup&gt; to get superscript text)<br>'+
   'For example JunctionType: R, Exit: 9, Others: 12 3 would generate this tulip diagram.<br>'+
   '<img src="R_9_12_3.svg" alt="example tulip diagram"><br>'+
-  'Click "Build Roadmap" to display the roadmap.<br>'+
+  'Click "Add waypoint" to add the single waypoint.<br>'+
+  'You can also bulk load waypoints in using the "Bulk waypoints" text box.<br>'+
+  'For this load the waypoint 1 per line with the format "Interval,Junction type exit others1 others2, Text description<br>'+
+  'Click "Bulk add waypoints" to add multiple waypoints.<br>'+
+  'Individual waypoints can be removed by entering the "ID" from the preview and clicking "Remove waypoint"<br>'+
+  'Click "Preview Roadmap" to display the roadmap.<br>'+
   'Click "Export Roadmap" to download the generated roadmap as an html file.<br>';
 errortext = '';
 

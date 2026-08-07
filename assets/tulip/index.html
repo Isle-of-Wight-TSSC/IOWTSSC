@@ -24,7 +24,7 @@ tr, td {
 This tool generates a simple roadmap for a convoy route.<br>
 <button onclick="help()">Help</button>
 <form id="frm1">
-<label for="InstructionID">Instruction ID:</label><input type="integer" name="InstructionID" value="" size="3">optional<br>
+<label for="InstructionID">Instruction ID:</label><input type="integer" name="InstructionID" value="" size="3"> optional<br>
 <label for="interval">Interval:</label><input type="text" name="interval" value="0.4" size="4"><br>
 Junction:<br>
 <label for="JunctionType">Type:</label><input type="text" name="JunctionType" pattern="[RrMmJjTt]" value="R" size="2">
@@ -36,9 +36,9 @@ Junction:<br>
 0.6, J 9 3, Turn <strong>Left</strong> at the junction.</textarea><br>
   <input type="reset" value="Reset">
 </form> 
-<button onclick="AddWayPoint()">add waypoint</button>
-<button onclick="AddWayPoints()">add waypoints</button>
-<button onclick="RemoveInstruction()">remove waypoint</button>
+<button onclick="AddWayPoint()">Add waypoint</button>
+<button onclick="AddWayPoints()">Bulk add waypoints</button>
+<button onclick="RemoveInstruction()">Remove waypoint</button>
 <button onclick="PreviewRoadmap()">Preview Roadmap</button>
 <button onclick="ExportRoadmap()">Export Roadmap</button>
 
