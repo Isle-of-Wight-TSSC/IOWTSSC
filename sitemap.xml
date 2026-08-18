@@ -2,63 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://iow.triumphsportsix.club/weekend</loc>
-		<lastmod>2026-07-01-T08:20:00+01:00</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>1</priority>
+		<lastmod>2026-07-01</lastmod>
 	</url>
 	<url>
 		<loc>https://iow.triumphsportsix.club</loc>
-		<lastmod>2026-07-01-T08:20:00+01:00</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>1</priority>
+		<lastmod>2026-07-01</lastmod>
 	</url>
 	<url>
 		<loc>https://iow.triumphsportsix.club/contactus</loc>
-		<lastmod>2026-07-20-T08:20:00+01:00</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>1</priority>
+		<lastmod>2026-07-20</lastmod>
 	</url>
 	<url>
 		<loc>https://iow.triumphsportsix.club/T-shirt</loc>
-		<lastmod>2026-07-01-T08:20:00+01:00</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>1</priority>
+		<lastmod>2026-07-01</lastmod>
 	</url>
 	<url>
 		<loc>https://iow.triumphsportsix.club/404</loc>
-		<lastmod>2026-07-01-T08:20:00+01:00</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>1</priority>
+		<lastmod>2026-07-01</lastmod>
 	</url>
 	<url>
 		<loc>https://iow.triumphsportsix.club/events</loc>
-		<lastmod>2026-07-01-T08:20:00+01:00</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>1</priority>
+		<lastmod>2026-07-01</lastmod>
 	</url>
 	<url>
 		<loc>https://iow.triumphsportsix.club/dev/cw/programme/programme</loc>
-		<lastmod>2026-04-23-T19:35:01+01:00</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>1</priority>
+		<lastmod>2026-04-23</lastmod>
 	</url>
 	<url>
 		<loc>https://iow.triumphsportsix.club/dev/cw/programme/directions</loc>
-		<lastmod>2026-04-23-T19:34:46+01:00</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>1</priority>
+		<lastmod>2026-04-23</lastmod>
+	</url>
+	<url>
+		<loc>https://iow.triumphsportsix.club/assets/tulip/</loc>
+		<lastmod>2026-07-20</lastmod>
+	</url>
 	</url>
 	<url>
 		<loc>https://iow.triumphsportsix.club/assets/tulip/tulip-gen</loc>
-		<lastmod>2026-07-20-T19:34:46+01:00</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>1</priority>
+		<lastmod>2026-07-20</lastmod>
 	</url>
 	</url>
 	<url>
 		<loc>https://iow.triumphsportsix.club/assets/tulip/premade</loc>
-		<lastmod>2026-07-20-T19:34:46+01:00</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>1</priority>
+		<lastmod>2026-07-20</lastmod>
 	</url>
 </urlset>
