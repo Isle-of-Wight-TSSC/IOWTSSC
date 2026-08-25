@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <path d="M 250.254 403.85 L 221.512 403.8 C 188.854 326.817 101.333 339.692 101.333 339.692 L 101.333 21.608 L 152.825 21.608 C 221.362 21.608 222.046 76.67 222.046 102.333 L 250.254 102.333" style="stroke: rgb(35, 31, 32); stroke-width: 6.417; fill: rgb(0, 68, 140);"/>
+  <path d="M 249.979 403.85 L 278.717 403.8 C 311.388 326.817 398.908 339.692 398.908 339.692 L 398.908 21.608 L 347.413 21.608 C 278.875 21.608 278.188 76.67 278.188 102.333 L 249.979 102.333 L 249.979 403.85 Z" style="stroke: rgb(35, 31, 32); stroke-width: 6.417; fill: rgb(255, 255, 255);"/>
+  <path d="M 250.342 478.392 L 355.258 478.392 C 400.113 478.392 477.638 446.767 477.638 339.308 L 399.008 339.308 L 399.008 353.746 C 399.008 353.746 398.454 404 354.713 404 L 250.342 404" style="stroke: rgb(35, 31, 32); stroke-width: 6.417; fill: rgb(0, 68, 140);"/>
+  <path d="M 250.342 478.392 L 142.362 478.392 C 97.508 478.392 22.362 446.767 22.362 339.308 L 100.987 339.308 L 100.987 353.746 C 100.987 353.746 99.171 404 142.925 404 L 250.342 404" style="stroke: rgb(35, 31, 32); stroke-width: 6.417; fill: rgb(255, 255, 255);"/>
+  <path d="M 250.962 102.333 L 250.961 478.393" style="fill: none; stroke: rgb(35, 31, 32); stroke-width: 6.417;"/>
+  <path d="M 129.688 49.037 L 129.688 336.35" style="fill: none; stroke: white; stroke-width: 6.417; stroke-linecap: round; stroke-linejoin: round;"/>
+  <path d="M 161.045 63.838 L 161.045 345.257" style="fill: none; stroke: white; stroke-width: 6.417; stroke-linecap: round; stroke-linejoin: round;"/>
+  <path d="M 191.987 84.387 L 191.988 361.022" style="fill: none; stroke: white; stroke-width: 6.417; stroke-linejoin: round; stroke-linecap: round;"/>
+  <path d="M 222.171 104.282 L 222.171 402.943" style="fill: none; stroke: white; stroke-width: 6.417; stroke-linejoin: round; stroke-linecap: round;"/>
+  <path d="M 370.685 49.038 L 370.685 336.351" style="fill: none; stroke: rgb(35, 31, 32); stroke-width: 6.417; stroke-linecap: round; stroke-linejoin: round;"/>
+  <path d="M 339.308 63.838 L 339.308 345.256" style="fill: none; stroke: rgb(35, 31, 32); stroke-width: 6.417; stroke-linecap: round; stroke-linejoin: round;"/>
+  <path d="M 308.363 84.388 L 308.363 363.58" style="fill: none; stroke: rgb(35, 31, 32); stroke-width: 6.417; stroke-linecap: round; stroke-linejoin: round;"/>
+  <path d="M 278.178 102.333 L 278.178 402.533" style="fill: none; stroke: rgb(35, 31, 32); stroke-width: 6.417; stroke-linecap: round; stroke-linejoin: round;"/>
+</svg>
