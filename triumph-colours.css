@@ -1,0 +1,107 @@
+/* Triumph factory colour reference.
+  Hex values are approximate screen representations, not paint formulas. */
+
+:root {
+  --triumph-signal-red: #c41520;
+  --triumph-valencia-blue: #4878b8;
+  --triumph-powder-blue: #8fc8e0;
+  --triumph-wedgewood-blue: #5c80b0;
+  --triumph-saffron-yellow: #e8a820;
+  --triumph-old-english-white: #f5f5dc;
+  --triumph-black: #0a0a0a;
+  --triumph-silverstone-grey: #909090;
+  --triumph-racing-green: #1a3a20;
+  --triumph-laurel-green: #405030;
+  --triumph-pale-yellow: #e8e898;
+  --triumph-white: #ffffff;
+  --triumph-dark-green: #00502d;
+  --triumph-royal-blue: #204880;
+  --triumph-jasmine-yellow: #e8e060;
+  --triumph-sienna-brown: #8b4820;
+  --triumph-mimosa-yellow: #e8e050;
+  --triumph-magenta: #9b1060;
+  --triumph-french-blue: #4868a8;
+  --triumph-mallard-blue: #1a5040;
+  --triumph-new-white: #f4f4ee;
+  --triumph-damask-red: #5a0a28;
+  --triumph-sienna: #8b4820;
+  --triumph-british-racing-green: #1a3a20;
+  --triumph-sapphire-blue: #204070;
+  --triumph-emerald-green: #287840;
+  --triumph-carmine-red: #8b1a2a;
+  --triumph-inca-yellow: #e8c030;
+  --triumph-java-green: #387840;
+  --triumph-pimento-red: #c42030;
+  --triumph-tahiti-blue: #3878c0;
+  --triumph-russet-brown: #784028;
+  --triumph-damson: #5a0a28;
+  --triumph-black-tulip: #2d001e;
+  --triumph-silver: #c0c0c0;
+  --triumph-pewter: #828787;
+  --triumph-astral-blue: #5080a8;
+  --triumph-vermilion: #e03020;
+  --triumph-pageant-blue: #304880;
+  --triumph-brooklands-green: #1a4028;
+  --triumph-triton-green: #1e6e46;
+  --triumph-bordeaux-red: #5a0a1e;
+  --triumph-aran-beige: #bea06e;
+  --triumph-topaz: #e87820;
+  --triumph-phasar-blue: #3278b4;
+  --triumph-cosmos-blue: #14508c;
+  --triumph-chartreuse: #a0be1e;
+  --triumph-persian-blue: #00468c;
+}
+
+[class^="triumph-"],
+[class*=" triumph-"] {
+  border: 1px solid #00000059;
+}
+
+.triumph-signal-red { background-color: var(--triumph-signal-red); }
+.triumph-valencia-blue { background-color: var(--triumph-valencia-blue); }
+.triumph-powder-blue { background-color: var(--triumph-powder-blue); }
+.triumph-wedgewood-blue { background-color: var(--triumph-wedgewood-blue); }
+.triumph-saffron-yellow { background-color: var(--triumph-saffron-yellow); }
+.triumph-old-english-white { background-color: var(--triumph-old-english-white); }
+.triumph-black { background-color: var(--triumph-black); }
+.triumph-silverstone-grey { background-color: var(--triumph-silverstone-grey); }
+.triumph-racing-green { background-color: var(--triumph-racing-green); }
+.triumph-laurel-green { background-color: var(--triumph-laurel-green); }
+.triumph-pale-yellow { background-color: var(--triumph-pale-yellow); }
+.triumph-white { background-color: var(--triumph-white); }
+.triumph-dark-green { background-color: var(--triumph-dark-green); }
+.triumph-royal-blue { background-color: var(--triumph-royal-blue); }
+.triumph-jasmine-yellow { background-color: var(--triumph-jasmine-yellow); }
+.triumph-sienna-brown { background-color: var(--triumph-sienna-brown); }
+.triumph-mimosa-yellow { background-color: var(--triumph-mimosa-yellow); }
+.triumph-magenta { background-color: var(--triumph-magenta); }
+.triumph-french-blue { background-color: var(--triumph-french-blue); }
+.triumph-mallard-blue { background-color: var(--triumph-mallard-blue); }
+.triumph-new-white { background-color: var(--triumph-new-white); }
+.triumph-damask-red { background-color: var(--triumph-damask-red); }
+.triumph-sienna { background-color: var(--triumph-sienna); }
+.triumph-british-racing-green { background-color: var(--triumph-british-racing-green); }
+.triumph-sapphire-blue { background-color: var(--triumph-sapphire-blue); }
+.triumph-emerald-green { background-color: var(--triumph-emerald-green); }
+.triumph-carmine-red { background-color: var(--triumph-carmine-red); }
+.triumph-inca-yellow { background-color: var(--triumph-inca-yellow); }
+.triumph-java-green { background-color: var(--triumph-java-green); }
+.triumph-pimento-red { background-color: var(--triumph-pimento-red); }
+.triumph-tahiti-blue { background-color: var(--triumph-tahiti-blue); }
+.triumph-russet-brown { background-color: var(--triumph-russet-brown); }
+.triumph-damson { background-color: var(--triumph-damson); }
+.triumph-black-tulip { background-color: var(--triumph-black-tulip); }
+.triumph-silver { background-color: var(--triumph-silver); }
+.triumph-pewter { background-color: var(--triumph-pewter); }
+.triumph-astral-blue { background-color: var(--triumph-astral-blue); }
+.triumph-vermilion { background-color: var(--triumph-vermilion); }
+.triumph-pageant-blue { background-color: var(--triumph-pageant-blue); }
+.triumph-brooklands-green { background-color: var(--triumph-brooklands-green); }
+.triumph-triton-green { background-color: var(--triumph-triton-green); }
+.triumph-bordeaux-red { background-color: var(--triumph-bordeaux-red); }
+.triumph-aran-beige { background-color: var(--triumph-aran-beige); }
+.triumph-topaz { background-color: var(--triumph-topaz); }
+.triumph-phasar-blue { background-color: var(--triumph-phasar-blue); }
+.triumph-cosmos-blue { background-color: var(--triumph-cosmos-blue); }
+.triumph-chartreuse { background-color: var(--triumph-chartreuse); }
+.triumph-persian-blue { background-color: var(--triumph-persian-blue); }
