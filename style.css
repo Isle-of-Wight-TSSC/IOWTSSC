@@ -11,8 +11,7 @@ html body {
 
 html body table {
     border-collapse: collapse;
-    border-spacing: 0;
-    display: block;
+    table-layout: fixed;
     width: 100%;
     overflow: auto;
     word-break: normal;
