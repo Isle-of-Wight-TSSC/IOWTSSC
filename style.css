@@ -24,6 +24,10 @@ html body table td, html body table th {
     padding:6px 13px
 }
 
+html body a {
+    text-decoration:none
+}
+
 html body[for=html-export]:not([data-presentation-mode]) .markdown-preview {
     position: relative;
     top: 0;
@@ -48,4 +52,45 @@ html body[for=html-export]:not([data-presentation-mode]) .markdown-preview {
         padding:1em
     }
 }
+@media (prefers-color-scheme: dark) {
+    
 
+    :not(pre) > code[class * =language-] {
+        background: #073642;
+        color:#93a1a1
+    }
+
+    html body {
+        color: #93a1a1;
+        background-color: #002b36;
+    }
+
+    html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
+        color:#fdf6e3
+    }
+
+    html body h6 {
+        color:#657b83
+    }
+
+    html body strong {
+        color:#fdf6e3
+    }
+
+    html body a {
+        color: #268bd2;
+        text-decoration:none
+    }
+
+    html body a:hover {
+        color: #2aa198;
+    }
+
+    html body table th {
+        color:#030303
+    }
+
+    html body table td, html body table th {
+        border: 1px solid #d6d6d6;
+    }
+}
