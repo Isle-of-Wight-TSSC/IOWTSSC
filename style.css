@@ -53,12 +53,6 @@ html body[for=html-export]:not([data-presentation-mode]) .markdown-preview {
     }
 }
 @media (prefers-color-scheme: dark) {
-    
-
-    :not(pre) > code[class * =language-] {
-        background: #073642;
-        color:#93a1a1
-    }
 
     html body {
         color: #93a1a1;
