@@ -27,26 +27,26 @@ html body a {
     text-decoration:none
 }
 
-html body[for=html-export]:not([data-presentation-mode]) .markdown-preview {
+html body{
     position: relative;
     top: 0;
     min-height:100vh
 }
 
 @media screen and (min-width: 914px) {
-    html body[for=html-export]:not([data-presentation-mode]) .markdown-preview {
+    html body{
         padding:2em calc(50% - 457px + 2em)
     }
 }
 
 @media screen and (max-width: 914px) {
-    html body[for=html-export]:not([data-presentation-mode]) .markdown-preview {
+    html body{
         padding:2em
     }
 }
 
 @media screen and (max-width: 450px) {
-    html body[for=html-export]:not([data-presentation-mode]) .markdown-preview {
+    html body{
         font-size: 14px !important;
         padding:1em
     }
