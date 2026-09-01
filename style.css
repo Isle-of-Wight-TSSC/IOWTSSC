@@ -24,7 +24,8 @@ html body table td, html body table th {
 }
 
 html body a {
-    text-decoration:none
+    text-decoration:none;
+    color: #268bd2
 }
 
 html body{
@@ -68,11 +69,6 @@ html body{
 
     html body strong {
         color:#fdf6e3
-    }
-
-    html body a {
-        color: #268bd2;
-        text-decoration:none
     }
 
     html body a:hover {
