@@ -13,4 +13,6 @@
   <path d="M 339.308 63.838 L 339.308 345.256" style="fill: none; stroke: rgb(35, 31, 32); stroke-width: 6.417; stroke-linecap: round; stroke-linejoin: round;"/>
   <path d="M 308.363 84.388 L 308.363 363.58" style="fill: none; stroke: rgb(35, 31, 32); stroke-width: 6.417; stroke-linecap: round; stroke-linejoin: round;"/>
   <path d="M 278.178 102.333 L 278.178 402.533" style="fill: none; stroke: rgb(35, 31, 32); stroke-width: 6.417; stroke-linecap: round; stroke-linejoin: round;"/>
+  <text x="190" y="465" font-family="Arial" font-size="60" text-anchor="middle" fill="rgb(0, 68, 140)">T S</text>
+  <text x="310" y="465" font-family="Arial" font-size="60" text-anchor="middle" fill="white">S C</text>
 </svg>
