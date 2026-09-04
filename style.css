@@ -1,85 +1,49 @@
-html body {
-    font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #555;
-    background-color: #fff;
-    overflow: initial;
-    box-sizing: border-box;
-    word-wrap:break-word
-}
-
-html body table {
-    border-collapse: collapse;
-    table-layout: fixed;
-    width: 100%;
-    overflow: auto;
-    word-break: normal;
-    word-break:keep-all
-}
-
-html body table td, html body table th {
-    border: 1px solid #d6d6d6;
-    padding:6px 13px
-}
-
-html body a {
-    text-decoration:none;
-    color: #268bd2
-}
-
 html body{
-    position: relative;
-    top: 0;
-    min-height:100vh
-}
+font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;
+font-size:16px;
+line-height:1.6;
+color:#555;
+background-color:#fff;
+overflow:initial;
+box-sizing:border-box;
+word-wrap:break-word}
 
-@media screen and (min-width: 914px) {
-    html body{
-        padding:2em calc(50% - 457px + 2em)
-    }
-}
+html body table{
+border-collapse:collapse;
+table-layout:fixed;
+width:100%;
+overflow:auto;
+word-break:normal;
+word-break:keep-all}
 
-@media screen and (max-width: 914px) {
-    html body{
-        padding:2em
-    }
-}
+html body table td, html body table th{
+border:1px solid #d6d6d6;
+padding:6px 13px}
 
-@media screen and (max-width: 450px) {
-    html body{
-        font-size: 14px !important;
-        padding:1em
-    }
-}
-@media (prefers-color-scheme: dark) {
+html body{position:relative;top:0;min-height:100vh}
 
-    html body {
-        color: #93a1a1;
-        background-color: #002b36;
-    }
+html body a{text-decoration:none;color:#268bd2}
+html body a:hover{color:#2aa198;}
+h1{color:#fdf6e3}
+h2{color:#d33682}
+h3{color:#dc322f}
+h4{color:#cb4b16}
+h5{color:#b58900}
 
-    html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
-        color:#fdf6e3
-    }
+@media screen and (min-width: 914px) {html body{padding:2em calc(50% - 457px + 2em)}}
+@media screen and (max-width: 914px) {html body{padding:2em}}
+@media screen and (max-width: 450px) {html body{font-size: 14px !important; padding:1em}}
 
-    html body h6 {
-        color:#657b83
-    }
+@media (prefers-color-scheme:dark){
+  html body{color:#93a1a1;background-color:#002b36;}
 
-    html body strong {
-        color:#fdf6e3
-    }
+  h1{color:#fdf6e3}
+  h2{color:#b58900}
+  h3{color:#cb4b16}
+  h4{color:#dc322f}
+  h5{color:#d33682}
 
-    html body a:hover {
-        color: #2aa198;
-    }
-
-    html body table th {
-        color:#030303
-    }
-
-    html body table td, html body table th {
-        border: 1px solid #d6d6d6;
-    }
+  html body strong{color:#fdf6e3}
+  html body table th{color:#030303}
+  html body table td, html body table th{border: 1px solid #d6d6d6;}
 }
