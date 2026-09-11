@@ -2,8 +2,8 @@ html body{
 font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;
 font-size:16px;
 line-height:1.6;
-color:#555;
-background-color:#fff;
+color:#073642;
+background-color:#fdf6e3;
 overflow:initial;
 box-sizing:border-box;
 word-wrap:break-word}
@@ -25,7 +25,7 @@ img{max-width:100%}
 
 html body a{text-decoration:none;color:#268bd2}
 html body a:hover{color:#2aa198;}
-h1{color:#fdf6e3}
+h1{color:#002b36}
 h2{color:#d33682}
 h3{color:#dc322f}
 h4{color:#cb4b16}
@@ -36,7 +36,7 @@ h5{color:#b58900}
 @media screen and (max-width: 450px) {html body{font-size: 14px !important; padding:1em}}
 
 @media (prefers-color-scheme:dark){
-  html body{color:#93a1a1;background-color:#002b36;}
+  html body,html body table th{color:#93a1a1;background-color:#002b36;}
 
   h1{color:#fdf6e3}
   h2{color:#b58900}
@@ -45,6 +45,4 @@ h5{color:#b58900}
   h5{color:#d33682}
 
   html body strong{color:#fdf6e3}
-  html body table th{color:#030303}
-  html body table td, html body table th{border: 1px solid #d6d6d6;}
 }
