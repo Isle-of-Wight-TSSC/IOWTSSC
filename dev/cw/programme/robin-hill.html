@@ -1,0 +1,538 @@
+<html>
+<style>
+  table {
+    min-width: 40%;
+  }
+  table,
+  th,
+  tr,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  tr,
+  td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  svg {
+    min-width: 50;
+  }
+</style>
+<body>
+  <table>
+    <tr>
+      <th>Cum</th>
+      <th>Int</th>
+      <th>Tulip</th>
+      <th>Description</th>
+    </tr>
+    <tr id="0">
+      <td>0</td>
+      <td>0</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(270 10 10)"></path>
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> Head out of the bottom gate of the campsite</td>
+    </tr>
+    <tr id="1">
+      <td>0.3</td>
+      <td>0.3</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(360 10 10)"></path>
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td><strong>Straight</strong> on at the crossroads</td>
+    </tr>
+    <tr id="2">
+      <td>1.1</td>
+      <td>0.8</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(270 10 10)"></path>
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td><strong>Left</strong> at T-Junction</td>
+    </tr>
+    <tr id="3">
+      <td>1.7</td>
+      <td>0.6</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(300 10 10)"></path>
+          <use href="#arm" transform="rotate(480 10 10)" />
+          <use href="#arm" transform="rotate(240 10 10)" />
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="10" r="3" />
+          <path style="fill: none; stroke: #FFF;" d="M 10 10 L 13 13" />
+        </svg></td>
+      <td>First exit at roundabout</td>
+    </tr>
+    <tr id="4">
+      <td>3.3</td>
+      <td>1.6</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(90 10 10)"></path>
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="10" r="3" />
+          <path style="fill: none; stroke: #FFF;" d="M 10 10 L 13 13" />
+        </svg></td>
+      <td>Second exit at roundabout</td>
+    </tr>
+    <tr id="5">
+      <td>5.6</td>
+      <td>2.3</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(30 10 10)"></path>
+          <use href="#arm" transform="rotate(210 10 10)" />
+          <use href="#arm" transform="rotate(510 10 10)" /><text x="3" y="18" font-size="7">&#x1F6A6</text>
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> Right at the traffic lights</td>
+    </tr>
+    <tr id="6">
+      <td>5.7</td>
+      <td>0.1</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(90 10 10)"></path>
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <use href="#arm" transform="rotate(450 10 10)" /><text x="3" y="18" font-size="7">&#x1F6A6</text>
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> Right at the traffic lights</td>
+    </tr>
+    <tr id="7">
+      <td>6.3</td>
+      <td>0.6</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(270 10 10)"></path>
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <use href="#arm" transform="rotate(540 10 10)" /><text x="3" y="18" font-size="7">&#x1F6A6</text>
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td>left at thew traffic lights</td>
+    </tr>
+    <tr id="8">
+      <td>7.3</td>
+      <td>1</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(270 10 10)"></path>
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <use href="#arm" transform="rotate(540 10 10)" /><text x="3" y="18" font-size="7">&#x1F6A6</text>
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> Left on to gunville road</td>
+    </tr>
+    <tr id="9">
+      <td>8.4</td>
+      <td>1.1</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(90 10 10)"></path>
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="10" r="1" />
+        </svg></td>
+      <td> 1st exit at the mini round about</td>
+    </tr>
+    <tr id="10">
+      <td>17.2</td>
+      <td>8.8</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(90 10 10)"></path>
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> Right onto the cause way</td>
+    </tr>
+    <tr id="11">
+      <td>17.9</td>
+      <td>0.7</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(90 10 10)"></path>
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> Right onto copse lane</td>
+    </tr>
+    <tr id="12">
+      <td>18.8</td>
+      <td>0.9</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(60 10 10)"></path>
+          <use href="#arm" transform="rotate(240 10 10)" />
+          <use href="#arm" transform="rotate(480 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> Right onto Halletts shute</td>
+    </tr>
+    <tr id="13">
+      <td>20.6</td>
+      <td>1.8</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(90 10 10)"></path>
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> Right onto thorley road</td>
+    </tr>
+    <tr id="14">
+      <td>21.2</td>
+      <td>0.6</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(270 10 10)"></path>
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> left onto thorley street</td>
+    </tr>
+    <tr id="15">
+      <td>21.7</td>
+      <td>0.5</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(90 10 10)"></path>
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> Right onto broad lane</td>
+    </tr>
+    <tr id="16">
+      <td>23.8</td>
+      <td>2.1</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(270 10 10)"></path>
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> left onto middle road</td>
+    </tr>
+  </table>
+  <table>
+    <tr id="split">
+      <td colspan="4">ford route</td>
+      <td colspan="4">dry route</td>
+    </tr>
+    <tr id="17">
+      <td>30.1</td>
+      <td>6.3</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(90 10 10)"></path>
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="10" r="1" />
+        </svg></td>
+      <td> 1st exit at the mini round about</td>
+      <td>30.1</td>
+      <td>6.3</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(360 10 10)"></path>
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="10" r="1" />
+        </svg></td>
+      <td> 2nd exit at the mini round about</td>
+    </tr>
+    <tr id="18">
+      <td>30.5</td>
+      <td>0.4</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(270 10 10)"></path>
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> Left on to clatterford shute</td>
+
+      <td>30.4</td>
+      <td>0.3</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(360 10 10)"></path>
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="10" r="1" />
+        </svg></td>
+      <td>1st exit</td>
+    </tr>
+    <tr id="19">
+      <td>30.7</td>
+      <td>0.2</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(240 10 10)"></path>
+          <use href="#arm" transform="rotate(420 10 10)" />
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> Left onto millers lane</td>
+      <td>30.6</td>
+      <td>0.2</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(360 10 10)"></path>
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="10" r="1" />
+        </svg></td>
+      <td> 2nd exit</td>
+    </tr>
+    <tr id="20">
+      <td>31</td>
+      <td>0.3</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(90 10 10)"></path>
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> Right onto Caslte lane</td>
+      <td>30.8</td>
+      <td>0.2</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(150 10 10)"></path>
+          <use href="#arm" transform="rotate(330 10 10)" />
+          <use href="#arm" transform="rotate(540 10 10)" /><text x="3" y="18" font-size="7">&#x1F6A6</text>
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td>right at lights</td>
+    </tr>
+    <tr id="21">
+      <td>31.1</td>
+      <td>0.1</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(330 10 10)"></path>
+          <use href="#arm" transform="rotate(510 10 10)" />
+          <use href="#arm" transform="rotate(300 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> left onto castle hill</td>
+      <td>31.1</td>
+      <td>0.3</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(240 10 10)"></path>
+          <use href="#arm" transform="rotate(420 10 10)" />
+          <use href="#arm" transform="rotate(240 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> left onto whitepit lane</td>
+    </tr>
+    <tr id="22">
+      <td>31.3</td>
+      <td>0.2</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(360 10 10)"></path>
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <use href="#arm" transform="rotate(330 10 10)" />
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="10" r="1" />
+        </svg></td>
+      <td>2nd exit onto whitepit lane</td>
+      <td colspan="4">the odometer will be .2 short for the rest of the journey</td>
+    </tr>
+  </table>
+  <table>
+    </tr>
+    <tr id="23">
+      <td>31.9</td>
+      <td>0.6</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(360 10 10)"></path>
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <use href="#arm" transform="rotate(450 10 10)" />
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="10" r="1" />
+        </svg></td>
+      <td>2nd exit onto shide road</td>
+    </tr>
+    <tr id="24">
+      <td>32.3</td>
+      <td>0.4</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(90 10 10)"></path>
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <use href="#arm" transform="rotate(450 10 10)" /><text x="3" y="18" font-size="7">&#x1F6A6</text>
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> right at the traffic light ontp black water road</td>
+    </tr>
+    <tr id="25">
+      <td>35.2</td>
+      <td>2.9</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(360 10 10)"></path>
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td>left onto downend road</td>
+    </tr>
+    <tr id="26">
+      <td>35.8</td>
+      <td>0.6</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(360 10 10)"></path>
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <use href="#arm" transform="rotate(270 10 10)" /><text x="3" y="18" font-size="7">&#x1F6A6</text>
+          <circle style="fill: #000;" cx="10" cy="10" r="0.5" />
+        </svg></td>
+      <td> straight on at the traffic light</td>
+    </tr>
+    <tr id="27">
+      <td>36</td>
+      <td>0.2</td>
+      <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <g id="arm">
+            <line style="stroke: #000; fill: none;" x1="10" y1="10" x2="10" y2="18" />
+          </g>
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="18" r="1" />
+          <path style="fill: none; stroke: #000;" d="M 8 4 L 10 2 L 12 4" transform="rotate(90 10 10)"></path>
+          <use href="#arm" transform="rotate(270 10 10)" />
+          <use href="#arm" transform="rotate(480 10 10)" />
+          <use href="#arm" transform="rotate(540 10 10)" />
+          <circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="10" r="3" />
+          <path style="fill: none; stroke: #FFF;" d="M 10 10 L 13 13" />
+        </svg></td>
+      <td> 3rd exit into robin hill</td>
+    </tr>
+    <body>
+</html>
