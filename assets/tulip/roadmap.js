@@ -18,7 +18,8 @@ var helpText =
   'Click "Bulk add waypoints" to add multiple waypoints.<br>'+
   'Individual waypoints can be removed by entering the "ID" from the preview and clicking "Remove waypoint"<br>'+
   'Click "Preview Roadmap" to display the roadmap.<br>'+
-  'Click "Export Roadmap" to download the generated roadmap as an html file.<br>';
+  'Click "Export Roadmap Single File" to download the generated roadmap as a single html file(simpler).<br>'+
+  'Click "Export Roadmap Multi-file" to download the generated roadmap as separate html/svg files(smaller).<br>';
 errortext = '';
 
 function normalizeNumber(value) {
@@ -272,5 +273,49 @@ function ExportRoadmap(){
   link.click();
   document.body.removeChild(link);
   URL.revokeObjectURL(url);
+
+}
+
+function ExportRoadmapCompact(){
+
+  var TotalOdometer = 0;
+  var fileName = "roadmap.html";
+  var svgs = []
+  var RoadmapTable = '<html><style>table, th, tr, td {  border: 1px solid black;  border-collapse: collapse;}tr, td {  width:20%;  height:20%;  text-align: center;   vertical-align: middle;}</style><body><table><tr><th>Cum</th><th>Int</th><th>Tulip</th><th>Description</th></tr>';
+  for (var i = 0; i < RouteList.length; i++) {
+    if (!(svgs.some(function(item) {return item.svg_name === RouteList[i][1].join("_")+".svg"}))){
+      svgs.push({svg_name: RouteList[i][1].join("_")+".svg", svg: tulip_gen(RouteList[i][1])})
+    }
+    RoadmapTable += '<tr id="' + i + '">';
+    TotalOdometer = normalizeNumber(TotalOdometer + parseFloat(RouteList[i][0]));
+    RoadmapTable += '<td>' + formatNumber(TotalOdometer) + '</td>';
+    RoadmapTable += '<td>' + formatNumber(RouteList[i][0]) + '</td>';
+    RoadmapTable += '<td><img src="' + RouteList[i][1].join("_")+".svg" + '"></td>';
+    RoadmapTable += '<td>' + RouteList[i][2] + '</td>';
+    RoadmapTable += '</tr>';
+  }
+  RoadmapTable += '<body></html>';
+  output.innerHTML = RoadmapTable
+
+  var blob = new Blob([RoadmapTable], { Type: "html;charset=utf-8" });
+  var url = URL.createObjectURL(blob);
+  var link = document.createElement("a");
+  link.href = url;
+  link.download = fileName;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+  svgs.forEach(({svg_name, svg }) => {
+        const blob = new Blob([svg], { type: 'image/svg+xml;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = svg_name;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      });
 
 }
