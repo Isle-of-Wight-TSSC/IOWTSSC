@@ -283,14 +283,15 @@ function ExportRoadmapCompact(){
   var svgs = []
   var RoadmapTable = '<html><style>table, th, tr, td {  border: 1px solid black;  border-collapse: collapse;}tr, td {  width:20%;  height:20%;  text-align: center;   vertical-align: middle;}</style><body><table><tr><th>Cum</th><th>Int</th><th>Tulip</th><th>Description</th></tr>';
   for (var i = 0; i < RouteList.length; i++) {
-    if (!(svgs.some(function(item) {return item.svg_name === RouteList[i][1].join("_")+".svg"}))){
-      svgs.push({svg_name: RouteList[i][1].join("_")+".svg", svg: tulip_gen(RouteList[i][1])})
+    var svgName = RouteList[i][1].join("_").replace(/\s+/g, "_") + ".svg";
+    if (!(svgs.some(function(item) {return item.svg_name === svgName}))) {
+      svgs.push({svg_name: svgName, svg: tulip_gen(RouteList[i][1])})
     }
     RoadmapTable += '<tr id="' + i + '">';
     TotalOdometer = normalizeNumber(TotalOdometer + parseFloat(RouteList[i][0]));
     RoadmapTable += '<td>' + formatNumber(TotalOdometer) + '</td>';
     RoadmapTable += '<td>' + formatNumber(RouteList[i][0]) + '</td>';
-    RoadmapTable += '<td><img src="' + RouteList[i][1].join("_")+".svg" + '"></td>';
+    RoadmapTable += '<td><img src="' + svgName + '"></td>';
     RoadmapTable += '<td>' + RouteList[i][2] + '</td>';
     RoadmapTable += '</tr>';
   }
