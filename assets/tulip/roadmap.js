@@ -211,7 +211,7 @@ function tulip_gen(input) {
     text +=
       '<circle style="stroke: #000; stroke-width: 1; fill: #FFF;" cx="10" cy="10" r="1"/>';
   } else if (JunctionType === "T" || JunctionType === "t") {
-    text += '<text x="3" y="18" font-size="7">&#x1F6A6</text>';
+    text += '<text x="3" y="18" font-size="7">🚦</text>';//&#x1F6A6
   }
   if (JunctionType === "J" || JunctionType === "j" || JunctionType === "T" || JunctionType === "t") {
     text += '<circle style="fill: #000;" cx="10" cy="10" r="0.5"/>';
@@ -279,7 +279,6 @@ function ExportRoadmap(){
 function ExportRoadmapCompact(){
 
   var TotalOdometer = 0;
-  var fileName = "roadmap.html";
   var svgs = []
   var RoadmapTable = '<html><style>table, th, tr, td {  border: 1px solid black;  border-collapse: collapse;}tr, td {  width:20%;  height:20%;  text-align: center;   vertical-align: middle;}</style><body><table><tr><th>Cum</th><th>Int</th><th>Tulip</th><th>Description</th></tr>';
   for (var i = 0; i < RouteList.length; i++) {
@@ -298,25 +297,36 @@ function ExportRoadmapCompact(){
   RoadmapTable += '<body></html>';
   output.innerHTML = RoadmapTable
 
-  var blob = new Blob([RoadmapTable], { Type: "html;charset=utf-8" });
-  var url = URL.createObjectURL(blob);
-  var link = document.createElement("a");
-  link.href = url;
-  link.download = fileName;
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-  URL.revokeObjectURL(url);
-  svgs.forEach(({svg_name, svg }) => {
-        const blob = new Blob([svg], { type: 'image/svg+xml;charset=utf-8' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = svg_name;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-      });
+  var downloads = [{
+    fileName: "roadmap.html",
+    content: RoadmapTable,
+    type: "text/html;charset=utf-8"
+  }].concat(svgs.map(function(item) {
+    return {
+      fileName: item.svg_name,
+      content: item.svg,
+      type: "image/svg+xml;charset=utf-8"
+    };
+  }));
+  console.log(downloads);
+
+  function downloadNext(index) {
+    if (index >= downloads.length) return;
+    var file = downloads[index];
+    var blob = new Blob([file.content], { type: file.type });
+    var url = URL.createObjectURL(blob);
+    var link = document.createElement("a");
+    link.href = url;
+    link.download = file.fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    setTimeout(function() { URL.revokeObjectURL(url); }, 60000);
+    if (index + 1 < downloads.length) {
+      setTimeout(function() { downloadNext(index + 1); }, 250);
+    }
+  }
+
+  downloadNext(0);
 
 }
