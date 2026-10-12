@@ -23,7 +23,7 @@ print_background: false
 
 ## Tools
 
-[Tulip generator](/assets/tulip/tulip-gen.html)
+[Tulip generator](/assets/tulip/tulip-gen)
 [Route map generator](/assets/tulip)
 
 ## Recommended services

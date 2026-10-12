@@ -21,7 +21,7 @@ On Friday the 28^th^ we will be leaving [Brading viewpoint](https://w3w.co/outla
 
 ## Isle of Wight Triumph Weekend
 
-The [Isle of Wight Triumph Weekend](/weekend.html) will be held over the [first May Bank Holiday](/iow.ics), Friday 30^th^ April to Monday 3^rd^ May 2027.
+The [Isle of Wight Triumph Weekend](/weekend) will be held over the [first May Bank Holiday](/iow.ics), Friday 30^th^ April to Monday 3^rd^ May 2027.
 <!--
 ## Featured Events
 
