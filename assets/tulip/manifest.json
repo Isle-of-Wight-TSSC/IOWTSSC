@@ -1,6 +1,6 @@
 {
   "background_color": "#ffffff",
-  "description": "Website for the Isle of Wight Triumph Sport Six Club, tool to generate roadmaps for convoy routes.",
+  "description": "Website based generator of roadmaps for convoy routes built by the Isle of Wight Triumph Sport Six Club",
   "dir": "ltr",
   "display": "standalone",
   "name": "TSSC SVG tulip roadmap generator",
