@@ -7,20 +7,12 @@
   "orientation": "any",
   "scope": "/",
   "short_name": "TSTRG",
-  "start_url": "/https://iow.triumphsportsix.club/assets/tulip/",
+  "start_url": "https://iow.triumphsportsix.club/assets/tulip",
   "theme_color": "#ffffff",
   "icons": [
     {
       "src": "https://iow.triumphsportsix.club/favicon.svg",
-      "type": "image/svg+xml",
-      "isSquare": false,
-      "isPng": false,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 0,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
+      "sizes": "any"
     }
   ],
   "categories": [
