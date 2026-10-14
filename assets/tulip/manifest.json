@@ -7,11 +7,11 @@
   "orientation": "any",
   "scope": "/",
   "short_name": "TSTRG",
-  "start_url": "/",
+  "start_url": "./",
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "https://iow.triumphsportsix.club/favicon.svg",
+      "src": "../../favicon.svg",
       "sizes": "any"
     }
   ],
