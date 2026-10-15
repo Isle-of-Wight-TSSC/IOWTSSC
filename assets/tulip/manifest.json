@@ -5,14 +5,15 @@
   "display": "standalone",
   "name": "TSSC SVG tulip roadmap generator",
   "orientation": "any",
-  "scope": "/",
+  "scope": "/assets/tulip/",
   "short_name": "TSTRG",
   "start_url": "./",
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "../../favicon.svg",
-      "sizes": "any"
+      "src": "/TSTRG.svg",
+      "sizes": "any 192x192 512x512",
+      "type": "image/svg+xml"
     }
   ],
   "categories": [
