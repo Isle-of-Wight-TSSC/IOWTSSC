@@ -9,6 +9,7 @@
   "short_name": "TSTRG",
   "start_url": "./",
   "theme_color": "#ffffff",
+  "lang": "en-GB",
   "icons": [
     {
       "src": "/assets/tulip/TSTRG.svg",
