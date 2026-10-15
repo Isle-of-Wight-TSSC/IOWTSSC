@@ -11,7 +11,7 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "/TSTRG.svg",
+      "src": "/assets/tulip/TSTRG.svg",
       "sizes": "any 192x192 512x512",
       "type": "image/svg+xml"
     }
