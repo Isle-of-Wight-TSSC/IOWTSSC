@@ -14,6 +14,11 @@
       "src": "/assets/tulip/TSTRG.svg",
       "sizes": "any 192x192 512x512",
       "type": "image/svg+xml"
+    },
+    {
+      "src": "/assets/tulip/TSTRG.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png"
     }
   ],
   "categories": [
