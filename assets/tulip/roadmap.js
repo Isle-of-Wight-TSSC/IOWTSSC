@@ -247,50 +247,27 @@ function PreviewRoadmap(){
 
 }
 
-function ExportRoadmap(){
-
-  var TotalOdometer = 0;
-  var fileName = "roadmap.html";
-  var RoadmapTable = '<html><style>table, th, tr, td {  border: 1px solid black;  border-collapse: collapse;}tr, td {  width:20%;  height:20%;  text-align: center;   vertical-align: middle;}</style><body><table><tr><th>Cum</th><th>Int</th><th>Tulip</th><th>Description</th></tr>';
-  for (var i = 0; i < RouteList.length; i++) {
-    RoadmapTable += '<tr id="' + i + '">';
-    TotalOdometer = normalizeNumber(TotalOdometer + parseFloat(RouteList[i][0]));
-    RoadmapTable += '<td>' + formatNumber(TotalOdometer) + '</td>';
-    RoadmapTable += '<td>' + formatNumber(RouteList[i][0]) + '</td>';
-    RoadmapTable += '<td>' + tulip_gen(RouteList[i][1]) + '</td>';
-    RoadmapTable += '<td>' + RouteList[i][2] + '</td>';
-    RoadmapTable += '</tr>';
-  }
-  RoadmapTable += '<body></html>';
-  output.innerHTML = RoadmapTable
-
-    var blob = new Blob([RoadmapTable], { Type: "html;charset=utf-8" });
-  var url = URL.createObjectURL(blob);
-  var link = document.createElement("a");
-  link.href = url;
-  link.download = fileName;
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-  URL.revokeObjectURL(url);
-
-}
-
-function ExportRoadmapCompact(){
+function ExportRoadmap(SingleFile){
 
   var TotalOdometer = 0;
   var svgs = []
   var RoadmapTable = '<html><style>table, th, tr, td {  border: 1px solid black;  border-collapse: collapse;}tr, td {  width:20%;  height:20%;  text-align: center;   vertical-align: middle;}</style><body><table><tr><th>Cum</th><th>Int</th><th>Tulip</th><th>Description</th></tr>';
   for (var i = 0; i < RouteList.length; i++) {
-    var svgName = RouteList[i][1].join("_").replace(/\s+/g, "_") + ".svg";
-    if (!(svgs.some(function(item) {return item.svg_name === svgName}))) {
-      svgs.push({svg_name: svgName, svg: tulip_gen(RouteList[i][1])})
+    if(!SingleFile){
+      var svgName = RouteList[i][1].join("_").replace(/\s+/g, "_") + ".svg";
+      if (!(svgs.some(function(item) {return item.svg_name === svgName}))) {
+        svgs.push({svg_name: svgName, svg: tulip_gen(RouteList[i][1])})
+      }
     }
     RoadmapTable += '<tr id="' + i + '">';
     TotalOdometer = normalizeNumber(TotalOdometer + parseFloat(RouteList[i][0]));
     RoadmapTable += '<td>' + formatNumber(TotalOdometer) + '</td>';
     RoadmapTable += '<td>' + formatNumber(RouteList[i][0]) + '</td>';
-    RoadmapTable += '<td><img src="' + svgName + '"></td>';
+    if(SingleFile){
+      RoadmapTable += '<td>' + tulip_gen(RouteList[i][1]) + '</td>';
+    } else {
+      RoadmapTable += '<td><img src="' + svgName + '"></td>';
+    }
     RoadmapTable += '<td>' + RouteList[i][2] + '</td>';
     RoadmapTable += '</tr>';
   }
