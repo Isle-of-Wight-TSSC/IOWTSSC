@@ -31,6 +31,10 @@ h3{color:#dc322f}
 h4{color:#cb4b16}
 h5{color:#b58900}
 
+nav {
+position: sticky;
+top: 0;}
+
 @media screen and (min-width: 914px) {html body{padding:2em calc(50% - 457px + 2em)}}
 @media screen and (max-width: 914px) {html body{padding:2em}}
 @media screen and (max-width: 450px) {html body{font-size: 14px !important; padding:1em}}
